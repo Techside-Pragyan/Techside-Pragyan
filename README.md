@@ -82,8 +82,10 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 </div>
 
 <div align="center">
-  <img width="40%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Techside-Pragyan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8&include_forks=true" />
+  <img width="40%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Techside-Pragyan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" />
 </div>
+
+> **Note:** The language chart above only reflects non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
 
 <!-- Activity Graph -->
 <div align="center">
