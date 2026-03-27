@@ -12,6 +12,10 @@
 
 ## 🧑‍💻 About Me
 
+<table>
+<tr>
+<td width="55%">
+
 ```yaml
 name: Pragyan Paramita Moharana
 role: Computer Science & Engineering Student @ DRIEMS University
@@ -24,6 +28,15 @@ goal: Creating efficient, scalable solutions that make a difference
 currently_learning: Advanced AI/ML techniques & Cloud Technologies
 fun_fact: I believe great code is like great poetry — elegant and expressive ✨
 ```
+
+</td>
+<td width="45%" align="center">
+
+<img src="./assets/avatar.png" width="320" alt="Developer Avatar"/>
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
