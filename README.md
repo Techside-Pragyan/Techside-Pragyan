@@ -1,26 +1,16 @@
-<p align="left">
-<a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
+<td width="50%">
+  <pre>
+  const pragyan = {
+    Education: "Last year diploma",
+    Passion: "AI/ML", "Full-stack Dev",
+    Current: "Final Year Student",
+    Focus: "Building Intelligent Systems"
+  };
+  </pre>
+  <p>An aspiring AI/ML Engineer...</p>
+</td>
 
-## 👨‍💻 About Me
-
-<table align="center">
-  <tr>
-    <td width="50%">
-      <pre>
-        
-const pragyan = {
-  Education: "Last year diploma"
-  Passion: "AI/ML", "Full-stack Dev"
-  Current: "Final Year Student"
-  Focus: "Building Intelligent Systems"
-};
-      </pre>
-      <p>
-        An aspiring <b>AI/ML Engineer</b> and Computer Science student, I strive to bridge the gap between innovative ideas and transformative technologies. My expertise includes <b>Web Development</b>, <b>Generative AI</b>, and <b>Data Science</b>.
-      </p>
-    </td>
-    <td width="50%">
-     
-    </td>
-  </tr>
+<td width="50%" align="center">
+  <img src="![WhatsApp Image 2026-03-27 at 11 13 38 AM](https://github.com/user-attachments/assets/99d4fbe1-ca3e-467c-8b74-b39cbac16086)
+" width="300px" />
+</td>
