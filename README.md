@@ -116,8 +116,13 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 <div align="center">
 
-[![Pragyan](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Techside-Pragyan&repo=pragyan&theme=tokyonight&hide_border=true)](https://github.com/Techside-Pragyan/pragyan)
-[![Tourix](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Techside-Pragyan&repo=tourix&theme=tokyonight&hide_border=true)](https://github.com/Techside-Pragyan/tourix)
+| 📦 Repository | 📝 Description | 🛠️ Tech |
+|:---:|:---:|:---:|
+| [**Tourix**](https://github.com/Techside-Pragyan/Tourix) | 🌴 Full-Stack Tourism & Booking Platform | `React` `Node.js` `MongoDB` `Express` |
+| [**pragyan**](https://github.com/Techside-Pragyan/pragyan) | 👩‍💻 My GitHub Profile README | `Markdown` |
+| [**skycast**](https://github.com/Techside-Pragyan/skycast) | 🌤️ Weather Forecasting App | `JavaScript` `API` |
+| [**aura-cosmetics**](https://github.com/Techside-Pragyan/aura-cosmetics) | 💄 Cosmetics E-Commerce Platform | `HTML` `CSS` `JS` |
+| [**Flower-Classification**](https://github.com/Techside-Pragyan/Flower-Classification) | 🌸 AI-Powered Flower Classifier | `Python` `ML` |
 
 </div>
 
