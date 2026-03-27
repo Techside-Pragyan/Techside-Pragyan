@@ -82,7 +82,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 </div>
 
 <div align="center">
-  <img width="40%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Techside-Pragyan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
+  <img width="40%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Techside-Pragyan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8&include_forks=true" />
 </div>
 
 <!-- Activity Graph -->
@@ -121,7 +121,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 | [**Tourix**](https://github.com/Techside-Pragyan/Tourix) | 🌴 Full-Stack Tourism & Booking Platform | `React` `Node.js` `MongoDB` `Express` |
 | [**pragyan**](https://github.com/Techside-Pragyan/pragyan) | 👩‍💻 My GitHub Profile README | `Markdown` |
 | [**skycast**](https://github.com/Techside-Pragyan/skycast) | 🌤️ Weather Forecasting App | `JavaScript` `API` |
-| [**aura-cosmetics**](https://github.com/Techside-Pragyan/aura-cosmetics) | 💄 Cosmetics E-Commerce Platform | `HTML` `CSS` `JS` |
+| [**aura-cosmetics**](https://github.com/Techside-Pragyan/aura-cosmetics) | 💄 Cosmetics E-Commerce Platform | `Next.js` `TypeScript` `Tailwind` |
 | [**Flower-Classification**](https://github.com/Techside-Pragyan/Flower-Classification) | 🌸 AI-Powered Flower Classifier | `Python` `ML` |
 
 </div>
