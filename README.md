@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Unique Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=FF007F,7928CA,00F2FE&height=250&section=header&text=Pragyan%20Paramita%20Moharana&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%2FML%20Enthusiast%20%7C%20Problem%20Solver&descSize=20&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=6,11,20&height=220&section=header&text=Pragyan%20Paramita%20Moharana&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%2FML%20Enthusiast%20%7C%20Problem%20Solver&descSize=18&descAlignY=60" width="100%"/>
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB+CSE+Student+%40+DRIEMS+University;%F0%9F%9A%80+Building+Scalable+Web+Solutions;%F0%9F%A4%96+Exploring+AI%2FML+%26+Cybersecurity;%E2%9C%A8+Turning+Ideas+into+Reality" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB+CSE+Student+%40+DRIEMS+University;%F0%9F%9A%80+Building+Scalable+Web+Solutions;%F0%9F%A4%96+Exploring+AI%2FML+%26+Cybersecurity;%E2%9C%A8+Turning+Ideas+into+Reality" alt="Typing SVG" /></a>
 
 </div>
 
@@ -161,7 +161,7 @@
 
 > *"The best way to predict the future is to create it."* — **Abraham Lincoln**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00F2FE,7928CA,FF007F&height=120&section=footer&fontSize=42&fontColor=fff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&fontSize=42&fontColor=fff&animation=twinkling" width="100%"/>
 
 </div>
 
