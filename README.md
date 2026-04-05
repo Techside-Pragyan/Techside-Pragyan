@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Animated Waving Girl -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-5611804c-7242-4e56-b60c-9b55978ca617.gif" width="150" alt="Animated Girl Waving Hello" />
+<!-- Animated Waving Anime Girl -->
+<img src="https://media.tenor.com/bCbp6PRejnEAAAAi/hello-waving.gif" width="150" alt="Animated Anime Girl Waving Hello" />
 
 <h2>Hello! I am Pragyan Paramita Moharana</h2>
 <h4>Full-Stack Developer | AI/ML Enthusiast | Problem Solver</h4>
