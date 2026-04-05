@@ -1,5 +1,8 @@
 <div align="center">
 
+<!-- Animated Waving Girl -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-5611804c-7242-4e56-b60c-9b55978ca617.gif" width="150" alt="Hello Viewer!" />
+
 <!-- Unique Animated Header -->
 <img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=6,11,20&height=220&section=header&text=Pragyan%20Paramita%20Moharana&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%2FML%20Enthusiast%20%7C%20Problem%20Solver&descSize=18&descAlignY=60" width="100%"/>
 
