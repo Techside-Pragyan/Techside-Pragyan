@@ -107,6 +107,13 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 ---
 
+## ⏱️ My Coding Stats
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 ## 🏆 GitHub Trophies
 
 <div align="center">
