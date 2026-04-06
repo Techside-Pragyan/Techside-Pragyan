@@ -103,6 +103,22 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 ---
 
+## 🎯 Currently Working On
+
+```text
+🚀 ProjectName      ██████████░░░░   70% - Adding some awesome features
+🛠️ AnotherApp       ██████░░░░░░░░   45% - Refactoring the backend
+```
+
+---
+
+## 💻 My Coding Stats & Activity
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 ## 📈 Contribution Calendar
 
 <div align="center">
