@@ -115,7 +115,8 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 ## 💻 My Coding Activity & Habits
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/main/github-metrics.svg" alt="Metrics" width="100%">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Techside-Pragyan&theme=tokyonight" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Techside-Pragyan&theme=tokyonight&utcOffset=5.5" />
 </div>
 
 ---
