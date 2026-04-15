@@ -22,5 +22,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          username: ${{ github.repository_owner }}
-          theme: tokyonight
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 5.5
+          AUTO_PUSH: false
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "Auto-generated profile summary cards" || exit 0
+          git push
