@@ -18,12 +18,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - uses: vn7n24fzkq/github-profile-summary-cards@v2.3.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: Techside-Pragyan
           theme: tokyonight
+          UTC_OFFSET: 5.5
 
       - name: Commit & Push
         run: |
@@ -31,5 +32,4 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           git commit -m "Auto-generated profile summary cards" || exit 0
-          git pull --rebase
           git push
