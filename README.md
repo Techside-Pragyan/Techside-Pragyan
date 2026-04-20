@@ -73,6 +73,26 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 ---
 
+<div align="center">
+
+## 🚀 Visitor Statistics
+![Visitor Counter](https://komarev.com/ghpvc/?username=Techside-Pragyan&color=6C63FF&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
+
+---
+
+## 🎯 Currently Working On
+
+```text
+👩‍💻 GitHub Profile      ██████████████  100% - Perfected analytics and widgets
+🌸 Flower Classifier    ████████████░░   90% - AI-powered image recognition
+🌴 Tourix Platform      ██████████████  100% - Full-Stack Tourism & Booking
+💄 Aura Cosmetics       ██████████████  100% - Next.js E-Commerce Application
+```
+
+---
+
 ## 📊 GitHub Metrics & Analytics
 
 <div align="center">
@@ -175,9 +195,9 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 </div>
 
-<!-- Profile Views Counter -->
-<div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=Techside-Pragyan&color=6C63FF&style=for-the-badge&label=PROFILE+VIEWS)
 
+<!-- WakaTime Stats -->
+<div align="center">
+  <!-- START_SECTION:waka -->
+  <!-- END_SECTION:waka -->
 </div>
