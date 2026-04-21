@@ -121,7 +121,7 @@ fun_fact: I believe great code is like great poetry â€” elegant and expressive â
 
 <div align="center">
   <img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/2-commits-per-language.svg" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
 </div>
 
 ---
