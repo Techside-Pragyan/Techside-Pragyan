@@ -20,12 +20,12 @@
 name: Pragyan Paramita Moharana
 role: Computer Science & Engineering Student @ DRIEMS University
 focus:
-  - Full-Stack Web Development (MERN Stack)
   - Artificial Intelligence & Machine Learning
+  - Full-Stack Web Development (MERN Stack)
   - Cybersecurity
 passion: Bridging innovative ideas with transformative technologies
 goal: Creating efficient, scalable solutions that make a difference
-currently_learning: Advanced AI/ML techniques & Cloud Technologies
+currently_learning: Advanced AI/ML techniques, web development, cyber security & Cloud Technologies
 fun_fact: I believe great code is like great poetry — elegant and expressive ✨
 ```
 
