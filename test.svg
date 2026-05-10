@@ -1,0 +1,42 @@
+
+      <svg
+        width="495"
+        height="100"
+        viewBox="0 0 495 100"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Languages"
+      >
+        <title>Languages</title>
+
+        <rect
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99"
+          stroke="#21262D"
+          width="494"
+          fill="#0D1117"
+          stroke-opacity="1"
+        />
+
+        <g transform="translate(25, 35)">
+            <text x="0%" y="0" text-anchor="start" class="header">
+              Languages
+            </text>
+          </g>
+
+        
+      <g transform="translate(25, 35)">
+        
+      </g>
+    
+
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            fill: #58A6FF;
+          }
+        </style>
+      </svg>
