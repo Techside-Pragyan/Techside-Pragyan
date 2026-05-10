@@ -54,17 +54,17 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 <div align="center">
 
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=👨‍💻%20Languages&lineCount=1&theme=github-dark&line1=python,javascript,java,c,html5,powershell" alt="Languages" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=👨‍💻%20Languages&lineCount=1&theme=github-dark&line1=python%2CPython%2Cauto%3Bjavascript%2CJavaScript%2Cauto%3Bjava%2CJava%2Cauto%3Bc%2CC%2Cauto%3Bhtml5%2CHTML5%2Cauto%3Bpowershell%2CPowerShell%2Cauto" alt="Languages" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🧠%20AI%20%2F%20ML&lineCount=1&theme=github-dark&line1=tensorflow,keras,pytorch,scikitlearn,opencv,numpy,pandas,matplotlib" alt="AI/ML" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🧠%20AI%20%2F%20ML&lineCount=1&theme=github-dark&line1=tensorflow%2CTensorFlow%2Cauto%3Bkeras%2CKeras%2Cauto%3Bpytorch%2CPyTorch%2Cauto%3Bscikitlearn%2CScikit-Learn%2Cauto%3Bopencv%2COpenCV%2Cauto%3Bnumpy%2CNumPy%2Cauto%3Bpandas%2CPandas%2Cauto%3Bmatplotlib%2CMatplotlib%2Cauto" alt="AI/ML" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🌐%20Web%20Frameworks%20%26%20Libraries&lineCount=2&theme=github-dark&line1=react,nextjs,nodejs,express,vite,jquery&line2=fastapi,flask,streamlit,wordpress,bun" alt="Web Frameworks & Libraries" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🌐%20Web%20Frameworks%20%26%20Libraries&lineCount=2&theme=github-dark&line1=react%2CReact%2Cauto%3Bnextdotjs%2CNext%20JS%2Cauto%3Bnodedotjs%2CNodeJS%2Cauto%3Bexpress%2CExpress.js%2Cauto%3Bvite%2CVite%2Cauto%3Bjquery%2CjQuery%2Cauto&line2=fastapi%2CFastAPI%2Cauto%3Bflask%2CFlask%2Cauto%3Bstreamlit%2CStreamlit%2Cauto%3Bwordpress%2CWordPress%2Cauto%3Bbun%2CBun%2Cauto" alt="Web Frameworks & Libraries" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🗄️%20Databases&lineCount=1&theme=github-dark&line1=mysql,mongodb,sqlite,postgresql" alt="Databases" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🗄️%20Databases&lineCount=1&theme=github-dark&line1=mysql%2CMySQL%2Cauto%3Bmongodb%2CMongoDB%2Cauto%3Bsqlite%2CSQLite%2Cauto%3Bpostgresql%2CPostgres%2Cauto" alt="Databases" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=☁️%20Cloud%20%26%20DevOps&lineCount=1&theme=github-dark&line1=amazonaws,vercel,netlify,render,cloudflare,docker" alt="Cloud & DevOps" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=☁️%20Cloud%20%26%20DevOps&lineCount=1&theme=github-dark&line1=amazonaws%2CAWS%2Cauto%3Bvercel%2CVercel%2Cauto%3Bnetlify%2CNetlify%2Cauto%3Brender%2CRender%2Cauto%3Bcloudflare%2CCloudflare%2Cauto%3Bdocker%2CDocker%2Cauto" alt="Cloud & DevOps" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🧰%20Tools&lineCount=1&theme=github-dark&line1=git,github,postman,figma,canva" alt="Tools" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🧰%20Tools&lineCount=1&theme=github-dark&line1=git%2CGit%2Cauto%3Bgithub%2CGitHub%2Cauto%3Bpostman%2CPostman%2Cauto%3Bfigma%2CFigma%2Cauto%3Bcanva%2CCanva%2Cauto" alt="Tools" />
 
 </div>
 
