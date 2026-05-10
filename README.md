@@ -87,12 +87,12 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Techside-Pragyan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&ring_color=6C63FF" />
+  <img width="49%" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Techside-Pragyan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&ring_color=6C63FF" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Techside-Pragyan&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Techside-Pragyan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" />
+  <img width="40%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=Techside-Pragyan&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" />
 </div>
 
 > **Note:** The language chart above only reflects non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
