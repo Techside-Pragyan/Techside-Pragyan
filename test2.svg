@@ -1,0 +1,66 @@
+
+      <svg
+        width="495"
+        height="100"
+        viewBox="0 0 495 100"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Languages"
+      >
+        <title>Languages</title>
+
+        <rect
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99"
+          stroke="#21262D"
+          width="494"
+          fill="#0D1117"
+          stroke-opacity="1"
+        />
+
+        <g transform="translate(25, 35)">
+            <text x="0%" y="0" text-anchor="start" class="header">
+              Languages
+            </text>
+          </g>
+
+        
+      <g transform="translate(25, 35)">
+        
+      <g transform="translate(0, 15)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="97.5" height="28" role="img" aria-label="PYTHON"><title>PYTHON</title><g shape-rendering="crispEdges"><rect width="97.5" height="28" fill="#161b22"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzc3NkFCIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UHl0aG9uPC90aXRsZT48cGF0aCBkPSJNMTQuMjUuMThsLjkuMi43My4yNi41OS4zLjQ1LjMyLjM0LjM0LjI1LjM0LjE2LjMzLjEuMy4wNC4yNi4wMi4yLS4wMS4xM1Y4LjVsLS4wNS42My0uMTMuNTUtLjIxLjQ2LS4yNi4zOC0uMy4zMS0uMzMuMjUtLjM1LjE5LS4zNS4xNC0uMzMuMS0uMy4wNy0uMjYuMDQtLjIxLjAySDguNzdsLS42OS4wNS0uNTkuMTQtLjUuMjItLjQxLjI3LS4zMy4zMi0uMjcuMzUtLjIuMzYtLjE1LjM3LS4xLjM1LS4wNy4zMi0uMDQuMjctLjAyLjIxdjMuMDZIMy4xN2wtLjIxLS4wMy0uMjgtLjA3LS4zMi0uMTItLjM1LS4xOC0uMzYtLjI2LS4zNi0uMzYtLjM1LS40Ni0uMzItLjU5LS4yOC0uNzMtLjIxLS44OC0uMTQtMS4wNS0uMDUtMS4yMy4wNi0xLjIyLjE2LTEuMDQuMjQtLjg3LjMyLS43MS4zNi0uNTcuNC0uNDQuNDItLjMzLjQyLS4yNC40LS4xNi4zNi0uMS4zMi0uMDUuMjQtLjAxaC4xNmwuMDYuMDFoOC4xNnYtLjgzSDYuMThsLS4wMS0yLjc1LS4wMi0uMzcuMDUtLjM0LjExLS4zMS4xNy0uMjguMjUtLjI2LjMxLS4yMy4zOC0uMi40NC0uMTguNTEtLjE1LjU4LS4xMi42NC0uMS43MS0uMDYuNzctLjA0Ljg0LS4wMiAxLjI3LjA1em0tNi4zIDEuOThsLS4yMy4zMy0uMDguNDEuMDguNDEuMjMuMzQuMzMuMjIuNDEuMDkuNDEtLjA5LjMzLS4yMi4yMy0uMzQuMDgtLjQxLS4wOC0uNDEtLjIzLS4zMy0uMzMtLjIyLS40MS0uMDktLjQxLjA5em0xMy4wOSAzLjk1bC4yOC4wNi4zMi4xMi4zNS4xOC4zNi4yNy4zNi4zNS4zNS40Ny4zMi41OS4yOC43My4yMS44OC4xNCAxLjA0LjA1IDEuMjMtLjA2IDEuMjMtLjE2IDEuMDQtLjI0Ljg2LS4zMi43MS0uMzYuNTctLjQuNDUtLjQyLjMzLS40Mi4yNC0uNC4xNi0uMzYuMDktLjMyLjA1LS4yNC4wMi0uMTYtLjAxaC04LjIydi44Mmg1Ljg0bC4wMSAyLjc2LjAyLjM2LS4wNS4zNC0uMTEuMzEtLjE3LjI5LS4yNS4yNS0uMzEuMjQtLjM4LjItLjQ0LjE3LS41MS4xNS0uNTguMTMtLjY0LjA5LS43MS4wNy0uNzcuMDQtLjg0LjAxLTEuMjctLjA0LTEuMDctLjE0LS45LS4yLS43My0uMjUtLjU5LS4zLS40NS0uMzMtLjM0LS4zNC0uMjUtLjM0LS4xNi0uMzMtLjEtLjMtLjA0LS4yNS0uMDItLjIuMDEtLjEzdi01LjM0bC4wNS0uNjQuMTMtLjU0LjIxLS40Ni4yNi0uMzguMy0uMzIuMzMtLjI0LjM1LS4yLjM1LS4xNC4zMy0uMS4zLS4wNi4yNi0uMDQuMjEtLjAyLjEzLS4wMWg1Ljg0bC42OS0uMDUuNTktLjE0LjUtLjIxLjQxLS4yOC4zMy0uMzIuMjctLjM1LjItLjM2LjE1LS4zNi4xLS4zNS4wNy0uMzIuMDQtLjI4LjAyLS4yMVY2LjA3aDIuMDlsLjE0LjAxem0tNi40NyAxNC4yNWwtLjIzLjMzLS4wOC40MS4wOC40MS4yMy4zMy4zMy4yMy40MS4wOC40MS0uMDguMzMtLjIzLjIzLS4zMy4wOC0uNDEtLjA4LS40MS0uMjMtLjMzLS4zMy0uMjMtLjQxLS4wOC0uNDEuMDh6Ii8+PC9zdmc+"/><text transform="scale(.1)" x="587.5" y="175" textLength="535" fill="#fff" font-weight="bold">PYTHON</text></g></svg>
+      </g>
+    
+      <g transform="translate(107.5, 15)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="126.5" height="28" role="img" aria-label="JAVASCRIPT"><title>JAVASCRIPT</title><g shape-rendering="crispEdges"><rect width="126.5" height="28" fill="#161b22"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRjdERjFFIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SmF2YVNjcmlwdDwvdGl0bGU+PHBhdGggZD0iTTAgMGgyNHYyNEgwVjB6bTIyLjAzNCAxOC4yNzZjLS4xNzUtMS4wOTUtLjg4OC0yLjAxNS0zLjAwMy0yLjg3My0uNzM2LS4zNDUtMS41NTQtLjU4NS0xLjc5Ny0xLjE0LS4wOTEtLjMzLS4xMDUtLjUxLS4wNDYtLjcwNS4xNS0uNjQ2LjkxNS0uODQgMS41MTUtLjY2LjM5LjEyLjc1LjQyLjk3Ni45IDEuMDM0LS42NzYgMS4wMzQtLjY3NiAxLjc1NS0xLjEyNS0uMjctLjQyLS40MDQtLjYwMS0uNTg2LS43OC0uNjMtLjcwNS0xLjQ2OS0xLjA2NS0yLjgzNC0xLjAzNGwtLjcwNS4wODljLS42NzYuMTY1LTEuMzIuNTI1LTEuNzEgMS4wMDUtMS4xNCAxLjI5MS0uODExIDMuNTQxLjU2OSA0LjQ3MSAxLjM2NSAxLjAyIDMuMzYxIDEuMjQ0IDMuNjE2IDIuMjA1LjI0IDEuMTctLjg3IDEuNTQ1LTEuOTY2IDEuNDEtLjgxMS0uMTgtMS4yNi0uNTg2LTEuNzU1LTEuMzM2bC0xLjgzIDEuMDUxYy4yMS40OC40NS42ODkuODEgMS4xMDkgMS43NCAxLjc1NiA2LjA5IDEuNjY2IDYuODcxLTEuMDA0LjAyOS0uMDkuMjQtLjcwNS4wNzQtMS42NWwuMDQ2LjA2N3ptLTguOTgzLTcuMjQ1aC0yLjI0OGMwIDEuOTM4LS4wMDkgMy44NjQtLjAwOSA1LjgwNSAwIDEuMjMyLjA2MyAyLjM2My0uMTM4IDIuNzExLS4zMy42ODktMS4xOC42MDEtMS41NjYuNDgtLjM5Ni0uMTk2LS41OTctLjQ2Ni0uODMtLjg1NS0uMDYzLS4xMDUtLjExLS4xOTYtLjEyNy0uMTk2bC0xLjgyNSAxLjEyNWMuMzA1LjYzLjc1IDEuMTcyIDEuMzI0IDEuNTE3Ljg1NS41MSAyLjAwNC42NzUgMy4yMDcuNDA1Ljc4My0uMjI2IDEuNDU4LS42OTEgMS44MTEtMS40MTEuNTEtLjkzLjQwMi0yLjA3LjM5Ny0zLjM0Ni4wMTItMi4wNTQgMC00LjEwOSAwLTYuMTc5bC4wMDQtLjA1NnoiLz48L3N2Zz4="/><text transform="scale(.1)" x="732.5" y="175" textLength="825" fill="#fff" font-weight="bold">JAVASCRIPT</text></g></svg>
+      </g>
+    
+      <g transform="translate(244, 15)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="57" height="28" role="img" aria-label="JAVA"><title>JAVA</title><g shape-rendering="crispEdges"><rect width="57" height="28" fill="#161b22"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="285" y="175" textLength="330" fill="#fff" font-weight="bold">JAVA</text></g></svg>
+      </g>
+    
+      <g transform="translate(311, 15)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="52.25" height="28" role="img" aria-label="C"><title>C</title><g shape-rendering="crispEdges"><rect width="52.25" height="28" fill="#161b22"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjQThCOUNDIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+QzwvdGl0bGU+PHBhdGggZD0iTTE2LjU5MjEgOS4xOTYycy0uMzU0LTMuMjk4LTMuNjI3LTMuMzljLTMuMjc0MS0uMDktNC45NTUyIDIuNDc0LTQuOTU1MiA2LjE0IDAgMy42NjUxIDEuODU4IDYuNTk3MiA1LjA0NTEgNi41OTcyIDMuMTg0IDAgMy41MzgxLTMuNjY1IDMuNTM4MS0zLjY2NWw2LjEwNDEuMzY1cy4zNiAzLjMxLTIuMTk2IDUuODM2Yy0yLjU1MiAyLjUyNDEtNS42OTAxIDIuOTM3MS03Ljg3NjIgMi45MjAxLTIuMTktLjAxNy01LjIyNjEuMDM0LTguMTYwMi0yLjk3LTIuOTM4LTMuMDEwMS0zLjQzNi01LjkzMDItMy40MzYtOC44MDAyIDAtMi44NzAxLjU1Ni02LjY3MDIgNC4wNDctOS41NTAyQzcuNDQ0LjcyIDkuODQ5IDAgMTIuMjU0IDBjMTAuMDQyMiAwIDEwLjcxNzIgOS4yNjAyIDEwLjcxNzIgOS4yNjAyeiIvPjwvc3ZnPg=="/><text transform="scale(.1)" x="361.25" y="175" textLength="82.5" fill="#fff" font-weight="bold">C</text></g></svg>
+      </g>
+    
+      <g transform="translate(373.25, 15)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="88.25" height="28" role="img" aria-label="HTML5"><title>HTML5</title><g shape-rendering="crispEdges"><rect width="88.25" height="28" fill="#161b22"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRTM0RjI2IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SFRNTDU8L3RpdGxlPjxwYXRoIGQ9Ik0xLjUgMGgyMWwtMS45MSAyMS41NjNMMTEuOTc3IDI0bC04LjU2NC0yLjQzOEwxLjUgMHptNy4wMzEgOS43NWwtLjIzMi0yLjcxOCAxMC4wNTkuMDAzLjIzLTIuNjIyTDUuNDEyIDQuNDFsLjY5OCA4LjAxaDkuMTI2bC0uMzI2IDMuNDI2LTIuOTEuODA0LTIuOTU1LS44MS0uMTg4LTIuMTFINi4yNDhsLjMzIDQuMTcxTDEyIDE5LjM1MWw1LjM3OS0xLjQ0My43NDQtOC4xNTdIOC41MzF6Ii8+PC9zdmc+"/><text transform="scale(.1)" x="541.25" y="175" textLength="442.5" fill="#fff" font-weight="bold">HTML5</text></g></svg>
+      </g>
+    
+      <g transform="translate(471.5, 15)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="112.5" height="28" role="img" aria-label="POWERSHELL"><title>POWERSHELL</title><g shape-rendering="crispEdges"><rect width="112.5" height="28" fill="#161b22"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><text transform="scale(.1)" x="562.5" y="175" textLength="885" fill="#fff" font-weight="bold">POWERSHELL</text></g></svg>
+      </g>
+    
+      </g>
+    
+
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            fill: #58A6FF;
+          }
+        </style>
+      </svg>
