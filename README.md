@@ -50,7 +50,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 ---
 
-## ??? Tech Stack & Tools
+## 🛠️ Tech Stack & Tools
 
 <div align="center">
 
