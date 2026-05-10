@@ -54,17 +54,17 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 <div align="center">
 
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=👨‍💻+Languages&lineCount=1&theme=github-dark&line1=python,javascript,java,c,cplusplus,html5,css3,php" alt="Languages" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=👨‍💻%20Languages&lineCount=1&theme=github-dark&line1=python,javascript,java,c,cplusplus,html5,css3,php" alt="Languages" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🧠+AI+/+ML&lineCount=1&theme=github-dark&line1=tensorflow,keras,pytorch,scikitlearn,opencv,numpy,pandas,matplotlib" alt="AI/ML" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🧠%20AI%20%2F%20ML&lineCount=1&theme=github-dark&line1=tensorflow,keras,pytorch,scikitlearn,opencv,numpy,pandas,matplotlib" alt="AI/ML" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🌐+Web+Frameworks+&+Libraries&lineCount=2&theme=github-dark&line1=react,nextjs,nodejs,express,vite,jquery&line2=fastapi,flask,streamlit,wordpress,bun" alt="Web Frameworks & Libraries" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🌐%20Web%20Frameworks%20%26%20Libraries&lineCount=2&theme=github-dark&line1=react,nextjs,nodejs,express,vite,jquery&line2=fastapi,flask,streamlit,wordpress,bun" alt="Web Frameworks & Libraries" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🗄️+Databases&lineCount=1&theme=github-dark&line1=mysql,mongodb,sqlite,postgresql" alt="Databases" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🗄️%20Databases&lineCount=1&theme=github-dark&line1=mysql,mongodb,sqlite,postgresql" alt="Databases" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=☁️+Cloud+&+DevOps&lineCount=1&theme=github-dark&line1=amazonaws,vercel,netlify,render,cloudflare,docker" alt="Cloud & DevOps" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=☁️%20Cloud%20%26%20DevOps&lineCount=1&theme=github-dark&line1=amazonaws,vercel,netlify,render,cloudflare,docker" alt="Cloud & DevOps" />
 <br>
-<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🧰+Tools&lineCount=1&theme=github-dark&line1=git,github,vscode,postman,figma,canva" alt="Tools" />
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=🧰%20Tools&lineCount=1&theme=github-dark&line1=git,github,vscode,postman,figma,canva" alt="Tools" />
 
 </div>
 
