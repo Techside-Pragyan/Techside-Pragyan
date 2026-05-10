@@ -1,56 +1,111 @@
+<!-- markdownlint-disable MD022 MD033 MD034 MD041 MD045 MD060 -->
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Pragyan%20Paramita%20Moharana&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Developer%20%7C%20AI%20Enthusiast%20%7C%20Builder&descSize=18&descAlignY=55&descAlign=50" width="100%"/>
+<!-- Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:b829ea&height=220&section=header&text=Ankit%20Sahoo&fontSize=50&fontColor=e0b0ff&animation=twinkling&fontAlignY=30&desc=Developer%20%7C%20AI%20Enthusiast%20%7C%20Builder&descAlignY=52&descSize=20&descColor=8b949e" width="100%"/>
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&repeat=true&width=800&height=50&lines=%F0%9F%92%BB+CSE+Student+%40+DRIEMS+University;%F0%9F%A4%96+AI%2FML+Enthusiast;%F0%9F%9A%80+Training+Models+%26+Building+Projects;%F0%9F%9B%A1%EF%B8%8F+Exploring+Gen+AI%2C+Cloud+%26+Cybersecurity;%E2%9C%A8+Turning+Data+into+Actionable+Reality" alt="Typing SVG" /></a>
+<br/>
+<br/>
+
+<!-- Dynamic Typing SVG -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=b829ea&center=true&vCenter=true&multiline=false&repeat=true&random=false&width=600&height=80&lines=🔥+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🚀+Building+The+Future+With+Code;🎯+Always+Learning+New+Things)](https://git.io/typing-svg)
+
+<br/>
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
-
-<table>
-<tr>
-<td width="55%">
+## 💫 About Me
 
 ```yaml
-name: Pragyan Paramita Moharana
-role: Computer Science & Engineering Student @ DRIEMS University
-focus:
-  - Artificial Intelligence & Machine Learning
-  - Full-Stack Web Development (MERN Stack)
-  - Cybersecurity
-passion: Bridging innovative ideas with transformative technologies
-goal: Creating efficient, scalable solutions that make a difference
-currently_learning: Advanced AI/ML techniques, web development, cyber security & Cloud Technologies
-fun_fact: I believe great code is like great poetry — elegant and expressive ✨
+name: Ankit Sahoo
+role: Software Developer Intern @ Envistream Smarttech
+education: B.Tech CSE @ DRIEMS University
+location: India 🇮🇳
+interests: [AI/ML, Web Development, Open Source, Building Cool Stuff]
+currently_learning: [Web Development, Software Engineering, Python, Deep Learning]
+portfolio: https://ankitsahoo-portfolio.onrender.com
+fun_fact: "I built a voice assistant tool like Siri!"
 ```
 
-</td>
-<td width="45%" align="center">
+<img align="right" alt="Coding" width="320" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd2OWRyaHMyMHQ5NnF4Yml0c3hhOHE5cW94dWY2cWFtaXJ5OTk0NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-<img src="./assets/avatar.png" width="320" alt="Developer Avatar"/>
+- 🔭 I'm currently working on **AI-powered projects**
+- 🌱 I'm learning **Web Dev, Software Engineering & Deep Learning**
+- 👯 Looking to collaborate on **creative AI projects**
+- 💬 Ask me about **Python, JavaScript, AI/ML**
+- 📫 Reach me at **ankitsahoo885@gmail.com**
+- 🌐 Check out my portfolio: **[ankitsahoo-portfolio.onrender.com](https://ankitsahoo-portfolio.onrender.com)**
+- ⚡ Fun fact: **I built a voice assistant like Siri!**
 
-</td>
-</tr>
-</table>
+<br clear="right"/>
 
 <div align="center">
+
+### 🌐 [✨ Visit My Portfolio →](https://ankitsahoo-portfolio.onrender.com)
+
+</div>
+
+---
 
 ## 🌐 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pragyan-paramita-moharana-303377377)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pragyanpramitamoharana@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Techside-Pragyan)
+<div align="center">
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/ankitsahoo94)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankit-sahoo94)
+[![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/Ankitsahoo94)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ankitsahoo885@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://ankitsahoo-portfolio.onrender.com)
 
 </div>
 
 ---
 
-## ??? Tech Stack & Tools
+## 🎯 Currently Working On
+
+```text
+🎭 FaceSentrix      ████████████████████░░░░░  80% — Emotion detection via CNN
+💻 CodeStudio        ██████████████░░░░░░░░░░░  55% — Web-based IDE
+📝 AI Notepad        ████████░░░░░░░░░░░░░░░░░  30% — Smart notes with AI
+🌐 Portfolio Site    ██████░░░░░░░░░░░░░░░░░░░  25% — Personal portfolio
+```
+
+<!-- START_SECTION:weekly_stats -->
+```text
+📊 Weekly Contribution Activity (Last 365 Days)
+
+Monday     57 commits      ██░░░░░░░░░░░░░░░░░░░░░░░    10.2%
+Tuesday    44 commits      █░░░░░░░░░░░░░░░░░░░░░░░░     7.9%
+Wednesday  118 commits     █████░░░░░░░░░░░░░░░░░░░░    21.1%
+Thursday   70 commits      ███░░░░░░░░░░░░░░░░░░░░░░    12.5%
+Friday     68 commits      ███░░░░░░░░░░░░░░░░░░░░░░    12.1%
+Saturday   151 commits     ██████░░░░░░░░░░░░░░░░░░░    27.0%
+Sunday     52 commits      ██░░░░░░░░░░░░░░░░░░░░░░░     9.3%
+```
+<!-- END_SECTION:weekly_stats -->
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+| # | Project | Description | Tech Stack | Status |
+|---|---------|-------------|------------|--------|
+| 🎭 | **[FaceSentrix](https://github.com/algorithnicmind/FaceSentrix)** | Real-time emotion detection system using CNN | `Python` `OpenCV` `TensorFlow` `Keras` | ✅ Active |
+| 💻 | **[CodeStudio](https://github.com/algorithnicmind/codestudio)** | Web-based multi-language coding IDE | `Next.js` `Monaco Editor` `TailwindCSS` | 🔧 Building |
+| 🤖 | **Mitra 2.0** | AI-powered voice assistant | `Python` `Speech Recognition` `NLP` | 🚀 Shipped |
+| 📝 | **AI Notepad** | Smart notepad with AI features | `JavaScript` `HTML/CSS` | 🔧 Building |
+
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+<br/>
 
 <div align="center">
 
@@ -261,89 +316,63 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 ---
 
-## 🎯 Currently Working On
-
-```text
-👩‍💻 GitHub Profile      ██████████████  100% - Perfected analytics and widgets
-🌸 Flower Classifier    ████████████░░   90% - AI-powered image recognition
-🌴 Tourix Platform      ██████████████  100% - Full-Stack Tourism & Booking
-💄 Aura Cosmetics       ██████████████  100% - Next.js E-Commerce Application
-```
-
----
-
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Techside-Pragyan&theme=tokyonight&hide_border=true" />
+
+<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=algorithnicmind&theme=radical&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=algorithnicmind&theme=radical&hide_border=true" alt="GitHub Streak"/>
+
+<br/>
+
+<br/>
+
+<img width="45%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=algorithnicmind&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/>
+<img width="45%" src="https://github-contributor-stats.vercel.app/api?username=algorithnicmind&limit=5&theme=radical&combine_all_yearly_contributions=true" alt="Top Contributed Repos"/>
+
 </div>
 
+<br/>
+
+### 🏆 GitHub Trophies
+
 <div align="center">
-  <img width="40%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" />
+
+![](https://github-trophies.vercel.app/?username=algorithnicmind&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=7)
+
 </div>
 
-> **Note:** The language chart above only reflects non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
+<br/>
 
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techside-Pragyan&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" width="95%"/>
-</div>
-
----
-
-## 🏆 GitHub Trophies
+### 📈 Contribution Highlights
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=Techside-Pragyan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" width="95%"/>
-</div>
 
----
+**Activity Graph**<br/>
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=algorithnicmind&theme=radical&hide_border=true&area=true)](https://github.com/algorithnicmind)
 
-## 💻 My Coding Activity & Habits
+<br/>
 
-<div align="center">
-  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" />
-</div>
+**Yearly Contributions**<br/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=algorithnicmind&theme=radical" alt="GitHub Contributions" width="100%"/>
 
-<div align="center">
-  <img width="60%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
-</div>
+<br/><br/>
 
----
+**📐 3D Perspective History**<br/>
+<img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D View" width="80%"/>
 
-## 📐 3D Perspective History
+<br/><br/>
 
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contribution Graph" width="90%" />
-</div>
-
----
-
-## 📈 Contribution Calendar
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/github-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/github-snake-dark.svg" width="90%"/>
-  </picture>
+**🎮 Contribution Pac-Man Game**<br/>
+  <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/algorithnicmind/algorithnicmind/output/pacman-contribution-graph-dark.svg" width="100%">
 </div>
 
 ---
 
-## 🔝 Top Repositories
-
 <div align="center">
 
-| 📦 Repository | 📝 Description | 🛠️ Tech |
-|:---:|:---:|:---:|
-| [**Tourix**](https://github.com/Techside-Pragyan/Tourix) | 🌴 Full-Stack Tourism & Booking Platform | `React` `Node.js` `MongoDB` `Express` |
-| [**pragyan**](https://github.com/Techside-Pragyan/pragyan) | 👩‍💻 My GitHub Profile README | `Markdown` |
-| [**skycast**](https://github.com/Techside-Pragyan/skycast) | 🌤️ Weather Forecasting App | `JavaScript` `API` |
-| [**aura-cosmetics**](https://github.com/Techside-Pragyan/aura-cosmetics) | 💄 Cosmetics E-Commerce Platform | `Next.js` `TypeScript` `Tailwind` |
-| [**Flower-Classification**](https://github.com/Techside-Pragyan/Flower-Classification) | 🌸 AI-Powered Flower Classifier | `Python` `ML` |
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
 
@@ -351,28 +380,16 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 <div align="center">
 
-### ✍️ Dev Quote of the Day
+<img src="https://komarev.com/ghpvc/?username=algorithnicmind&label=Profile%20Views&color=b829ea&style=for-the-badge" alt="Profile Views" />
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<br/>
 
-</div>
+### 💰 Support My Work
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ankitsahoo3)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/algorithnicmind)
 
----
+<br/>
 
-<div align="center">
-
-### 🎵 Vibes
-
-> *"The best way to predict the future is to create it."* — **Abraham Lincoln**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&fontSize=42&fontColor=fff&animation=twinkling" width="100%"/>
-
-</div>
-
-
-<!-- Profile Views Counter -->
-<div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=Techside-Pragyan&color=6C63FF&style=for-the-badge&label=PROFILE+VIEWS)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:b829ea&height=120&section=footer" width="100%"/>
 
 </div>
