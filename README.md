@@ -217,7 +217,7 @@ fun_fact: I believe great code is like great poetry â€” elegant and expressive â
             <br>Netlify
         </td>
         <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=render" width="48" height="48" alt="Render" />
+            <img src="https://cdn.simpleicons.org/render/white" width="48" height="48" alt="Render" />
             <br>Render
         </td>
         <td align="center" width="90">
