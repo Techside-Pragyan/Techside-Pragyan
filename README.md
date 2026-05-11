@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Pragyan%20Paramita%20Moharana&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Developer%20%7C%20AI%20Enthusiast%20%7C%20Builder&descSize=18&descAlignY=55&descAlign=50" width="100%"/>
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&repeat=true&width=800&height=50&lines=%F0%9F%92%BB+CSE+Student+%40+DRIEMS+University;%F0%9F%A4%96+AI%2FML+Enthusiast;%F0%9F%9A%80+Training+Models+%26+Building+Projects;%F0%9F%9B%A1%EF%B8%8F+Exploring+Gen+AI%2C+web development +%26+Cybersecurity;%E2%9C%A8+Turning+Data+into+Actionable+Reality" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&repeat=true&width=800&height=50&lines=%F0%9F%92%BB+CSE+Student+%40+DRIEMS+University;%F0%9F%A4%96+AI%2FML+Enthusiast;%F0%9F%9A%80+Training+Models+%26+Building+Projects;%F0%9F%9B%A1%EF%B8%8F+Exploring+Gen+AI%2C+web+development +%26+Cybersecurity;%E2%9C%A8+Turning+Data+into+Actionable+Reality" alt="Typing SVG" /></a>
 
 </div>
 
