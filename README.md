@@ -325,9 +325,9 @@ fun_fact: I believe great code is like great poetry â€” elegant and expressive â
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/pacman-contribution-graph.svg" />
-    <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/pacman-contribution-graph-dark.svg" width="90%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/galaga-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/galaga-contribution-graph.svg" />
+    <img alt="Galaga Contribution Graph" src="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/output/galaga-contribution-graph-dark.svg" width="90%"/>
   </picture>
 </div>
 
