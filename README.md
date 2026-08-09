@@ -133,12 +133,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 <!-- Activity Graph -->
 <div align="center">
-  <br/>
-  [![Contribution Graph](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=24&amp;duration=3000&amp;pause=1000&amp;color=6C63FF&amp;center=true&amp;vCenter=true&amp;multiline=false&amp;width=400&amp;height=50&amp;lines=📈+Contribution+Activity)](https://git.io/typing-svg)
-  <br/>
-  <a href="https://github.com/Techside-Pragyan">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techside-Pragyan&amp;bg_color=1a1b27&amp;color=70a5fd&amp;line=f7768e&amp;point=FFFFFF&amp;area_color=bb9af7&amp;area=true&amp;hide_border=true&amp;hide_title=true&amp;animation=true" width="95%"/>
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techside-Pragyan&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" width="95%"/>
 </div>
 
 ---
