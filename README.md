@@ -66,37 +66,37 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
   <summary><b>✨ Click here to view categorized Tech Stack</b></summary>
   <br/>
 
-  [![Languages](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=👨‍💻+Languages)](https://git.io/typing-svg)
+  <h3 align="center">👨‍💻 [![Languages](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=120&amp;height=30&amp;lines=Languages)](https://git.io/typing-svg)</h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=py,js,java,c,html,powershell&theme=dark" />
 
   <br/><br/>
 
-  [![AI / ML](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=🧠+AI+%2F+ML)](https://git.io/typing-svg)
+  <h3 align="center">🧠 [![AI / ML](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=100&amp;height=30&amp;lines=AI+%2F+ML)](https://git.io/typing-svg)</h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,scikitlearn,numpy,pandas,matplotlib,keras&theme=dark" />
 
   <br/><br/>
 
-  [![Web Technologies](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=🌐+Web+Technologies)](https://git.io/typing-svg)
+  <h3 align="center">🌐 [![Web Technologies](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=220&amp;height=30&amp;lines=Web+Technologies)](https://git.io/typing-svg)</h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,vite,jquery,fastapi,flask,wordpress,bun&theme=dark" />
 
   <br/><br/>
 
-  [![Databases](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=🗄️+Databases)](https://git.io/typing-svg)
+  <h3 align="center">🗄️ [![Databases](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=120&amp;height=30&amp;lines=Databases)](https://git.io/typing-svg)</h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite,postgres&theme=dark" />
 
   <br/><br/>
 
-  [![Cloud & DevOps](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=☁️+Cloud+%26+DevOps)](https://git.io/typing-svg)
+  <h3 align="center">☁️ [![Cloud & DevOps](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=180&amp;height=30&amp;lines=Cloud+%26+DevOps)](https://git.io/typing-svg)</h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=aws,vercel,netlify,cloudflare,docker&theme=dark" />
   
   <br/><br/>
 
-  [![Tools](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=🧰+Tools)](https://git.io/typing-svg)
+  <h3 align="center">🧰 [![Tools](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=70&amp;height=30&amp;lines=Tools)](https://git.io/typing-svg)</h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=git,github,postman,figma,canva&theme=dark" />
   <br/>
