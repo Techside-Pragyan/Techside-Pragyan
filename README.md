@@ -63,7 +63,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 <br/>
 
 <details>
-  <summary><img src="./custom_tech_button.svg" alt="Click to view categorized Tech Stack" /></summary>
+  <summary><b>✨ Click here to view categorized Tech Stack</b></summary>
   <br/>
 
   <h3 align="center">👨‍💻 <img src="./cat_languages.svg" alt="Languages" /></h3>
