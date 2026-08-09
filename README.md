@@ -63,7 +63,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 <br/>
 
 <details>
-  <summary><img src="https://capsule-render.vercel.app/api?type=rect&amp;color=gradient&amp;customColorList=6,11,20&amp;height=40&amp;text=✨%20Click%20to%20view%20categorized%20Tech%20Stack%20✨&amp;fontSize=18&amp;fontColor=fff&amp;animation=twinkling" alt="Click to view categorized Tech Stack" /></summary>
+  <summary><img src="./custom_tech_button.svg" alt="Click to view categorized Tech Stack" /></summary>
   <br/>
 
   <h3 align="center">👨‍💻 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=120&amp;height=30&amp;lines=Languages" alt="Languages" /></a></h3>
