@@ -63,7 +63,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 <br/>
 
 <details>
-  <summary><b>✨ Click here to view categorized Tech Stack</b></summary>
+  <summary>✨ <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=F7768E&amp;vCenter=true&amp;multiline=false&amp;width=500&amp;height=30&amp;lines=Click+here+to+view+categorized+Tech+Stack;Explore+my+Skill+Universe;Discover+the+Tools+I+Use" alt="Click here to view categorized Tech Stack" /></summary>
   <br/>
 
   <h3 align="center">👨‍💻 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=120&amp;height=30&amp;lines=Languages" alt="Languages" /></a></h3>
