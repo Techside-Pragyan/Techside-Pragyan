@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100">
+  <style>
+    .marquee {
+      animation: marquee 10s linear infinite;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(800px); }
+      100% { transform: translateX(-800px); }
+    }
+  </style>
+  <g class="marquee">
+    <rect width="50" height="50" fill="red" />
+    <text x="60" y="30" fill="white">Test Animated Marquee</text>
+  </g>
+</svg>
