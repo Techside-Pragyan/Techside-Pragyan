@@ -62,9 +62,6 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 <br/>
 <br/>
 
-<details>
-  <summary><b>✨ Click here to view categorized Tech Stack</b></summary>
-  <br/>
 
   <h3 align="center">👨‍💻 <img src="./cat_languages.svg" alt="Languages" /></h3>
   <br/>
@@ -101,7 +98,6 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
   <img src="https://skillicons.dev/icons?i=git,github,postman,figma,canva&theme=dark" />
   <br/>
 
-</details>
 
 </div>
 
