@@ -66,37 +66,37 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
   <summary><img src="./custom_tech_button.svg" alt="Click to view categorized Tech Stack" /></summary>
   <br/>
 
-  <h3 align="center">👨‍💻 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=120&amp;height=30&amp;lines=Languages" alt="Languages" /></a></h3>
+  <h3 align="center">👨‍💻 <img src="./cat_languages.svg" alt="Languages" /></h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=py,js,java,c,html,powershell&theme=dark" />
 
   <br/><br/>
 
-  <h3 align="center">🧠 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=100&amp;height=30&amp;lines=AI+%2F+ML" alt="AI / ML" /></a></h3>
+  <h3 align="center">🧠 <img src="./cat_aiml.svg" alt="AI / ML" /></h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,scikitlearn,numpy,pandas,matplotlib,keras&theme=dark" />
 
   <br/><br/>
 
-  <h3 align="center">🌐 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=220&amp;height=30&amp;lines=Web+Technologies" alt="Web Technologies" /></a></h3>
+  <h3 align="center">🌐 <img src="./cat_web.svg" alt="Web Technologies" /></h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,vite,jquery,fastapi,flask,wordpress,bun&theme=dark" />
 
   <br/><br/>
 
-  <h3 align="center">🗄️ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=120&amp;height=30&amp;lines=Databases" alt="Databases" /></a></h3>
+  <h3 align="center">🗄️ <img src="./cat_databases.svg" alt="Databases" /></h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite,postgres&theme=dark" />
 
   <br/><br/>
 
-  <h3 align="center">☁️ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=180&amp;height=30&amp;lines=Cloud+%26+DevOps" alt="Cloud & DevOps" /></a></h3>
+  <h3 align="center">☁️ <img src="./cat_cloud.svg" alt="Cloud & DevOps" /></h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=aws,vercel,netlify,cloudflare,docker&theme=dark" />
   
   <br/><br/>
 
-  <h3 align="center">🧰 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2000&amp;pause=500&amp;color=6C63FF&amp;vCenter=true&amp;multiline=false&amp;width=70&amp;height=30&amp;lines=Tools" alt="Tools" /></a></h3>
+  <h3 align="center">🧰 <img src="./cat_tools.svg" alt="Tools" /></h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=git,github,postman,figma,canva&theme=dark" />
   <br/>
