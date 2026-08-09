@@ -63,42 +63,6 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 <br/>
 
 
-  <h3 align="center">👨‍💻 <img src="./cat_languages.svg" alt="Languages" /></h3>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=py,js,java,c,html,powershell&theme=dark" />
-
-  <br/><br/>
-
-  <h3 align="center">🧠 <img src="./cat_aiml.svg" alt="AI / ML" /></h3>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,scikitlearn,numpy,pandas,matplotlib,keras&theme=dark" />
-
-  <br/><br/>
-
-  <h3 align="center">🌐 <img src="./cat_web.svg" alt="Web Technologies" /></h3>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,vite,jquery,fastapi,flask,wordpress,bun&theme=dark" />
-
-  <br/><br/>
-
-  <h3 align="center">🗄️ <img src="./cat_databases.svg" alt="Databases" /></h3>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite,postgres&theme=dark" />
-
-  <br/><br/>
-
-  <h3 align="center">☁️ <img src="./cat_cloud.svg" alt="Cloud & DevOps" /></h3>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=aws,vercel,netlify,cloudflare,docker&theme=dark" />
-  
-  <br/><br/>
-
-  <h3 align="center">🧰 <img src="./cat_tools.svg" alt="Tools" /></h3>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=git,github,postman,figma,canva&theme=dark" />
-  <br/>
-
-
 </div>
 
 ---
