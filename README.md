@@ -54,209 +54,55 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 <div align="center">
 
-### 👨‍💻 Languages
-<br/>
-<table align="center">
-    <tr>
-        <td align="center" width="90">
-            <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
-            <br>Python
-        </td>
-        <td align="center" width="90">
-            <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
-            <br>JavaScript
-        </td>
-        <td align="center" width="90">
-            <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" />
-            <br>Java
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
-            <br>C
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
-            <br>HTML5
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=powershell" width="48" height="48" alt="PowerShell" />
-            <br>PowerShell
-        </td>
-    </tr>
-</table>
+<!-- Animated Tech Stack Slider -->
+<a href="https://skillicons.dev">
+  <img src="./tech_stack_animated.svg" alt="Animated Tech Stack" width="100%" />
+</a>
 
-### 🧠 AI / ML
 <br/>
-<table align="center">
-    <tr>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
-            <br>TensorFlow
-        </td>
-        <td align="center" width="90">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" />
-            <br>Keras
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" />
-            <br>PyTorch
-        </td>
-        <td align="center" width="90">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="48" height="48" alt="scikit-learn" />
-            <br>Scikit-Learn
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV" />
-            <br>OpenCV
-        </td>
-        <td align="center" width="90">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy" />
-            <br>NumPy
-        </td>
-        <td align="center" width="90">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas" />
-            <br>Pandas
-        </td>
-        <td align="center" width="90">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib" />
-            <br>Matplotlib
-        </td>
-    </tr>
-</table>
+<br/>
 
-### 🌐 Web Frameworks & Libraries
-<br/>
-<table align="center">
-    <tr>
-        <td align="center" width="90">
-            <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
-            <br>React
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-            <br>Next JS
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="NodeJS" />
-            <br>NodeJS
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express.js" />
-            <br>Express.js
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
-            <br>Vite
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jQuery" />
-            <br>jQuery
-        </td>
-    </tr>
-    <tr>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" />
-            <br>FastAPI
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=flask" width="48" height="48" alt="Flask" />
-            <br>Flask
-        </td>
-        <td align="center" width="90">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" width="48" height="48" alt="Streamlit" />
-            <br>Streamlit
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
-            <br>WordPress
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=bun" width="48" height="48" alt="Bun" />
-            <br>Bun
-        </td>
-    </tr>
-</table>
+<details>
+  <summary><b>✨ Click here to view categorized Tech Stack</b></summary>
+  <br/>
 
-### 🗄️ Databases
-<br/>
-<table align="center">
-    <tr>
-        <td align="center" width="90">
-            <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" />
-            <br>MySQL
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
-            <br>MongoDB
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=sqlite" width="48" height="48" alt="SQLite" />
-            <br>SQLite
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="Postgres" />
-            <br>Postgres
-        </td>
-    </tr>
-</table>
+  [![Languages](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=👨‍💻+Languages)](https://git.io/typing-svg)
+  <br/>
+  <img src="https://skillicons.dev/icons?i=py,js,java,c,html,powershell&theme=dark" />
 
-### ☁️ Cloud & DevOps
-<br/>
-<table align="center">
-    <tr>
-        <td align="center" width="90">
-            <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" />
-            <br>AWS
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel" />
-            <br>Vercel
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=netlify" width="48" height="48" alt="Netlify" />
-            <br>Netlify
-        </td>
-        <td align="center" width="90">
-            <img src="https://cdn.simpleicons.org/render/white" width="48" height="48" alt="Render" />
-            <br>Render
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" alt="Cloudflare" />
-            <br>Cloudflare
-        </td>
-        <td align="center" width="90">
-            <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" height="65" />
-            <br>Docker
-        </td>
-    </tr>
-</table>
+  <br/><br/>
 
-### 🧰 Tools
-<br/>
-<table align="center">
-    <tr>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-            <br>Git
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
-            <br>GitHub
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
-            <br>Postman
-        </td>
-        <td align="center" width="90">
-            <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
-            <br>Figma
-        </td>
-        <td align="center" width="90">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" width="48" height="48" alt="Canva" />
-            <br>Canva
-        </td>
-    </tr>
-</table>
+  [![AI / ML](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=🧠+AI+%2F+ML)](https://git.io/typing-svg)
+  <br/>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,scikitlearn,numpy,pandas,matplotlib,keras&theme=dark" />
+
+  <br/><br/>
+
+  [![Web Technologies](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=🌐+Web+Technologies)](https://git.io/typing-svg)
+  <br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,vite,jquery,fastapi,flask,wordpress,bun&theme=dark" />
+
+  <br/><br/>
+
+  [![Databases](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=🗄️+Databases)](https://git.io/typing-svg)
+  <br/>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite,postgres&theme=dark" />
+
+  <br/><br/>
+
+  [![Cloud & DevOps](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=☁️+Cloud+%26+DevOps)](https://git.io/typing-svg)
+  <br/>
+  <img src="https://skillicons.dev/icons?i=aws,vercel,netlify,cloudflare,docker&theme=dark" />
+  
+  <br/><br/>
+
+  [![Tools](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=500&color=6C63FF&center=true&vCenter=true&multiline=false&width=300&height=40&lines=🧰+Tools)](https://git.io/typing-svg)
+  <br/>
+  <img src="https://skillicons.dev/icons?i=git,github,postman,figma,canva&theme=dark" />
+  <br/>
+
+</details>
+
 </div>
 
 ---
