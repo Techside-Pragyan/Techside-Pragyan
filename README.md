@@ -91,9 +91,9 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 > **Note:** The language chart above only reflects non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
 
-<!-- Activity Graph -->
+<!-- Daily Programming Joke -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techside-Pragyan&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" width="95%"/>
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder=true" alt="Daily Programming Joke Card" />
 </div>
 
 ---
