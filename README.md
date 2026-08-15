@@ -89,9 +89,9 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 > **Note:** The language chart above only reflects non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
 
-<!-- AI Developer Mission Control -->
+<!-- Tech Solar System -->
 <div align="center">
-  <img src="./assets/mission_control.svg" alt="AI Developer Mission Control Dashboard" />
+  <img src="./assets/tech_solar_system.svg" alt="Animated Tech Solar System" width="100%" />
 </div>
 
 ---

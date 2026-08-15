@@ -1,0 +1,197 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Inter:wght@600&amp;display=swap');
+      
+      .space-bg { fill: #0a0e17; }
+      
+      .orbit {
+        fill: none;
+        stroke: rgba(125, 207, 255, 0.15);
+        stroke-width: 1.5;
+        stroke-dasharray: 4 4;
+      }
+      
+      .sun-core {
+        fill: url(#sunGlow);
+        animation: pulse-sun 4s infinite alternate;
+      }
+      
+      @keyframes pulse-sun {
+        0% { filter: drop-shadow(0 0 20px #ff9e64); transform: scale(1); }
+        100% { filter: drop-shadow(0 0 40px #bb9af7); transform: scale(1.05); }
+      }
+      
+      .star {
+        fill: #ffffff;
+        animation: twinkle 3s infinite ease-in-out alternate;
+      }
+      
+      @keyframes twinkle {
+        0% { opacity: 0.2; transform: scale(0.8); }
+        100% { opacity: 1; transform: scale(1.2); }
+      }
+      
+      .planet-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      
+      .title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 24px;
+        fill: #c0caf5;
+        letter-spacing: 3px;
+        text-anchor: middle;
+      }
+      
+      .subtitle {
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        fill: #565f89;
+        letter-spacing: 2px;
+        text-anchor: middle;
+      }
+    </style>
+    
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" />
+      <stop offset="20%" stop-color="#ff9e64" />
+      <stop offset="70%" stop-color="#bb9af7" />
+      <stop offset="100%" stop-color="#1A1B26" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="planetPython" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3776AB" /><stop offset="100%" stop-color="#FFD43B" />
+    </radialGradient>
+    <radialGradient id="planetReact" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#61DAFB" /><stop offset="100%" stop-color="#282C34" />
+    </radialGradient>
+    <radialGradient id="planetNode" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#339933" /><stop offset="100%" stop-color="#1A1B26" />
+    </radialGradient>
+    <radialGradient id="planetNext" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" /><stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+    <radialGradient id="planetMongo" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#47A248" /><stop offset="100%" stop-color="#116149" />
+    </radialGradient>
+    <radialGradient id="planetCyber" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f7768e" /><stop offset="100%" stop-color="#bb9af7" />
+    </radialGradient>
+    <radialGradient id="planetAI" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#7dcfff" /><stop offset="100%" stop-color="#2ac3de" />
+    </radialGradient>
+  </defs>
+
+  <!-- Deep Space Background with rounded corners -->
+  <rect width="800" height="450" rx="16" class="space-bg" />
+  
+  <!-- Starfield (Random scattered stars) -->
+  <g id="starfield">
+    <circle cx="100" cy="50" r="1.5" class="star" style="animation-delay: 0.1s" />
+    <circle cx="700" cy="80" r="1" class="star" style="animation-delay: 1.2s" />
+    <circle cx="200" cy="350" r="2" class="star" style="animation-delay: 0.5s" />
+    <circle cx="650" cy="400" r="1.5" class="star" style="animation-delay: 1.8s" />
+    <circle cx="50" cy="250" r="1" class="star" style="animation-delay: 0.7s" />
+    <circle cx="400" cy="30" r="2" class="star" style="animation-delay: 2.1s" />
+    <circle cx="750" cy="220" r="1.5" class="star" style="animation-delay: 0.3s" />
+    <circle cx="300" cy="420" r="1" class="star" style="animation-delay: 1.5s" />
+    <circle cx="550" cy="60" r="2" class="star" style="animation-delay: 0.9s" />
+    <circle cx="150" cy="150" r="1.5" class="star" style="animation-delay: 2.4s" />
+  </g>
+
+  <!-- Header -->
+  <text x="400" y="45" class="title">TECHNOLOGY UNIVERSE</text>
+  <text x="400" y="65" class="subtitle">AI &amp; FULL-STACK ECOSYSTEM</text>
+
+  <!-- Solar System Center (400, 250) -->
+  <g transform="translate(400, 250)">
+    
+    <!-- Orbits (Ellipses to simulate 3D isometric plane) -->
+    <!-- path syntax: M cx-rx cy A rx ry 0 1 0 cx+rx cy A rx ry 0 1 0 cx-rx cy -->
+    <path id="orbit1" d="M -120 0 A 120 40 0 1 0 120 0 A 120 40 0 1 0 -120 0" class="orbit" />
+    <path id="orbit2" d="M -200 0 A 200 65 0 1 0 200 0 A 200 65 0 1 0 -200 0" class="orbit" />
+    <path id="orbit3" d="M -280 0 A 280 90 0 1 0 280 0 A 280 90 0 1 0 -280 0" class="orbit" />
+    <path id="orbit4" d="M -360 0 A 360 115 0 1 0 360 0 A 360 115 0 1 0 -360 0" class="orbit" />
+    
+    <!-- The Glowing Sun (Core Profile) -->
+    <circle cx="0" cy="0" r="50" class="sun-core" />
+    <text x="0" y="0" font-family="'Orbitron', sans-serif" font-size="28px" fill="#1A1B26" font-weight="700" text-anchor="middle" dominant-baseline="central" style="pointer-events: none;">PPM</text>
+
+    <!-- Planets on Orbits -->
+    
+    <!-- Orbit 1: React & Node -->
+    <g>
+      <circle r="14" fill="url(#planetReact)" />
+      <text y="-22" class="planet-text">React</text>
+      <animateMotion dur="8s" repeatCount="indefinite">
+        <mpath href="#orbit1" />
+      </animateMotion>
+    </g>
+    
+    <g>
+      <circle r="12" fill="url(#planetNode)" />
+      <text y="-20" class="planet-text">Node.js</text>
+      <animateMotion dur="8s" begin="-4s" repeatCount="indefinite">
+        <mpath href="#orbit1" />
+      </animateMotion>
+    </g>
+    
+    <!-- Orbit 2: Python & AI -->
+    <g>
+      <circle r="18" fill="url(#planetPython)" />
+      <text y="-26" class="planet-text">Python</text>
+      <animateMotion dur="14s" repeatCount="indefinite">
+        <mpath href="#orbit2" />
+      </animateMotion>
+    </g>
+
+    <g>
+      <circle r="16" fill="url(#planetAI)" />
+      <text y="28" class="planet-text">AI / ML</text>
+      <animateMotion dur="14s" begin="-7s" repeatCount="indefinite">
+        <mpath href="#orbit2" />
+      </animateMotion>
+    </g>
+
+    <!-- Orbit 3: Next.js & MongoDB -->
+    <g>
+      <circle r="15" fill="url(#planetNext)" />
+      <text y="-24" class="planet-text">Next.js</text>
+      <animateMotion dur="20s" begin="-3s" repeatCount="indefinite">
+        <mpath href="#orbit3" />
+      </animateMotion>
+    </g>
+
+    <g>
+      <circle r="14" fill="url(#planetMongo)" />
+      <text y="24" class="planet-text">MongoDB</text>
+      <animateMotion dur="20s" begin="-13s" repeatCount="indefinite">
+        <mpath href="#orbit3" />
+      </animateMotion>
+    </g>
+
+    <!-- Orbit 4: Cyber & Cloud -->
+    <g>
+      <circle r="12" fill="url(#planetCyber)" />
+      <text y="-20" class="planet-text">Cyber</text>
+      <animateMotion dur="28s" begin="-10s" repeatCount="indefinite">
+        <mpath href="#orbit4" />
+      </animateMotion>
+    </g>
+
+    <g>
+      <circle r="13" fill="#ff9e64" />
+      <text y="22" class="planet-text">Cloud</text>
+      <animateMotion dur="28s" begin="-24s" repeatCount="indefinite">
+        <mpath href="#orbit4" />
+      </animateMotion>
+    </g>
+    
+  </g>
+</svg>
