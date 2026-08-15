@@ -89,9 +89,19 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 > **Note:** The language chart above only reflects non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
 
-<!-- Tech Solar System -->
+## 📈 Contribution & Time Analytics
+
 <div align="center">
-  <img src="./assets/tech_solar_system.svg" alt="Animated Tech Solar System" width="100%" />
+  <!-- Live Weekly/Monthly Contribution Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techside-Pragyan&theme=tokyo-night&bg_color=1a1b26&color=7dcfff&line=bb9af7&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- Profile Details (Contributions) and Productive Time (Time Spent) -->
+  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" />
 </div>
 
 ---
