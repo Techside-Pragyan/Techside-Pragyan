@@ -32,7 +32,7 @@ fun_fact: I believe great code is like great poetry â€” elegant and expressive â
 </td>
 <td width="45%" align="center">
 
-<img src="./assets/avatar.png" width="320" alt="Developer Avatar"/>
+<img src="./assets/animated_avatar.svg" width="320" alt="Animated Developer Avatar"/>
 
 </td>
 </tr>
