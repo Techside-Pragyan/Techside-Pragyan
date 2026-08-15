@@ -1,0 +1,139 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .core-bg { fill: #1a1b26; }
+      
+      .ring-1 {
+        fill: none;
+        stroke: #7dcfff;
+        stroke-width: 2;
+        stroke-dasharray: 10 5 30 10;
+        animation: spin 15s linear infinite;
+        transform-origin: center;
+      }
+      
+      .ring-2 {
+        fill: none;
+        stroke: #bb9af7;
+        stroke-width: 1.5;
+        stroke-dasharray: 40 10 5 10;
+        animation: spin-reverse 20s linear infinite;
+        transform-origin: center;
+      }
+      
+      .ring-3 {
+        fill: none;
+        stroke: #2ac3de;
+        stroke-width: 0.5;
+        stroke-dasharray: 5 15;
+        animation: spin 10s linear infinite;
+        transform-origin: center;
+      }
+      
+      .core-glow {
+        fill: url(#glowGradient);
+        animation: pulse 3s ease-in-out infinite;
+        transform-origin: center;
+      }
+      
+      .node {
+        fill: #9ece6a;
+        animation: pulse-node 4s ease-in-out infinite;
+      }
+      
+      .particle {
+        fill: #ff9e64;
+        animation: float 5s ease-in-out infinite;
+      }
+
+      .particle-2 {
+        fill: #7dcfff;
+        animation: float-reverse 6s ease-in-out infinite;
+      }
+      
+      .connection {
+        stroke: #bb9af7;
+        stroke-width: 1.5;
+        opacity: 0.6;
+        animation: flash 4s infinite;
+      }
+
+      @keyframes spin { 100% { transform: rotate(360deg); } }
+      @keyframes spin-reverse { 100% { transform: rotate(-360deg); } }
+      
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.1); opacity: 1; filter: drop-shadow(0 0 15px #bb9af7); }
+      }
+      
+      @keyframes pulse-node {
+        0%, 100% { r: 3px; filter: drop-shadow(0 0 2px #9ece6a); }
+        50% { r: 5px; filter: drop-shadow(0 0 8px #9ece6a); }
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0) translateX(0); }
+        50% { transform: translateY(-15px) translateX(10px); }
+      }
+      
+      @keyframes float-reverse {
+        0%, 100% { transform: translateY(0) translateX(0); }
+        50% { transform: translateY(15px) translateX(-10px); }
+      }
+      
+      @keyframes flash {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+      }
+    </style>
+    
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bb9af7" stop-opacity="1" />
+      <stop offset="40%" stop-color="#bb9af7" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <circle cx="160" cy="160" r="150" class="core-bg" />
+  
+  <g transform="translate(160, 160)">
+    <!-- Orbital Rings -->
+    <circle cx="0" cy="0" r="120" class="ring-1" />
+    <circle cx="0" cy="0" r="135" class="ring-2" />
+    <circle cx="0" cy="0" r="100" class="ring-3" />
+    <circle cx="0" cy="0" r="70" class="ring-1" style="animation-direction: reverse; stroke: #9ece6a; stroke-dasharray: 20 10; opacity: 0.5;" />
+    
+    <!-- Central AI Core -->
+    <circle cx="0" cy="0" r="40" class="core-glow" />
+    
+    <!-- Neural Network Nodes -->
+    <!-- Center -->
+    <circle cx="0" cy="0" r="8" fill="#ffffff" style="filter: drop-shadow(0 0 5px #fff);" />
+    
+    <!-- Connections -->
+    <line x1="0" y1="0" x2="-30" y2="-40" class="connection" style="animation-delay: 0s;" />
+    <line x1="0" y1="0" x2="40" y2="-20" class="connection" style="animation-delay: 1s;" />
+    <line x1="0" y1="0" x2="20" y2="45" class="connection" style="animation-delay: 2s;" />
+    <line x1="0" y1="0" x2="-45" y2="15" class="connection" style="animation-delay: 0.5s;" />
+    <line x1="-30" y1="-40" x2="10" y2="-70" class="connection" style="animation-delay: 1.5s;" />
+    <line x1="40" y1="-20" x2="60" y2="10" class="connection" style="animation-delay: 0.8s;" />
+    <line x1="20" y1="45" x2="-15" y2="60" class="connection" style="animation-delay: 2.5s;" />
+    
+    <!-- Nodes -->
+    <circle cx="-30" cy="-40" r="4" class="node" style="animation-delay: 0s;" />
+    <circle cx="40" cy="-20" r="4" class="node" style="animation-delay: 1s;" />
+    <circle cx="20" cy="45" r="4" class="node" style="animation-delay: 2s;" />
+    <circle cx="-45" cy="15" r="4" class="node" style="animation-delay: 0.5s;" />
+    
+    <!-- Outer Nodes -->
+    <circle cx="10" cy="-70" r="3" class="node" style="fill: #7dcfff; animation-delay: 1.5s;" />
+    <circle cx="60" cy="10" r="3" class="node" style="fill: #7dcfff; animation-delay: 0.8s;" />
+    <circle cx="-15" cy="60" r="3" class="node" style="fill: #7dcfff; animation-delay: 2.5s;" />
+    
+    <!-- Floating Particles -->
+    <circle cx="-80" cy="-80" r="2" class="particle" />
+    <circle cx="90" cy="-60" r="2.5" class="particle-2" />
+    <circle cx="70" cy="80" r="1.5" class="particle" style="animation-delay: 1s;" />
+    <circle cx="-70" cy="90" r="2" class="particle-2" style="animation-delay: 2s;" />
+  </g>
+</svg>

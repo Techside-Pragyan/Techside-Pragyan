@@ -10,11 +10,33 @@
 
 ---
 
-## 🧑‍💻 Digital Identity
+## 🧑‍💻 About Me
 
-<div align="center">
-  <img src="./assets/about_me_interface.svg" alt="Digital Identity Interface" width="100%" />
-</div>
+<table>
+<tr>
+<td width="55%">
+
+```yaml
+name: Pragyan Paramita Moharana
+role: Computer Science & Engineering Student @ DRIEMS University
+focus:
+  - Artificial Intelligence & Machine Learning
+  - Full-Stack Web Development (MERN Stack)
+  - Cybersecurity
+passion: Bridging innovative ideas with transformative technologies
+goal: Creating efficient, scalable solutions that make a difference
+currently_learning: Advanced AI/ML techniques, web development, cyber security & Cloud Technologies
+fun_fact: I believe great code is like great poetry — elegant and expressive ✨
+```
+
+</td>
+<td width="45%" align="center">
+
+<img src="./assets/ai_core.svg" width="320" alt="Cybernetic AI Core"/>
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
