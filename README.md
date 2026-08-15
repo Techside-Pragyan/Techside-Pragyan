@@ -17,22 +17,22 @@
 <td width="55%">
 
 ```yaml
-name: "Pragyan Paramita Moharana"
-role: "CSE Scholar @ DRIEMS University | AI & Full-Stack Architect"
+name: Pragyan Paramita Moharana
+role: Computer Science & Engineering Student @ DRIEMS University
 focus:
-  - "🧠 Artificial Intelligence & Deep Learning"
-  - "🌐 High-Performance Full-Stack Development"
-  - "🛡️ Next-Gen Cybersecurity"
-passion: "Architecting intelligent systems that turn complex data into transformative, actionable reality."
-vision: "Engineering highly scalable, elegant solutions that redefine user experiences and solve real-world challenges."
-currently_learning: "Mastering Generative AI frameworks, Cloud infrastructure, and secure architectures."
-fun_fact: "I treat code like a canvas—every algorithm I write is a blend of brutal efficiency and elegant poetry. ✨"
+  - Artificial Intelligence & Machine Learning
+  - Full-Stack Web Development (MERN Stack)
+  - Cybersecurity
+passion: Bridging innovative ideas with transformative technologies
+goal: Creating efficient, scalable solutions that make a difference
+currently_learning: Advanced AI/ML techniques, web development, cyber security & Cloud Technologies
+fun_fact: I believe great code is like great poetry — elegant and expressive ✨
 ```
 
 </td>
 <td width="45%" align="center">
 
-<img src="./assets/ai_core.svg" width="320" alt="Cybernetic AI Core"/>
+<img src="./assets/avatar.png" width="320" alt="Developer Avatar"/>
 
 </td>
 </tr>
