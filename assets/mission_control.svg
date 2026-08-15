@@ -1,0 +1,112 @@
+<svg width="800" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;family=Inter:wght@400;600;700&amp;display=swap');
+      
+      .bg { fill: #1A1B26; rx: 12px; stroke: #3b4261; stroke-width: 1.5px; }
+      .header-bg { fill: #16161e; rx: 12px; stroke: #292e42; stroke-width: 1px; }
+      
+      /* Typography */
+      .title { font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 700; fill: #c0caf5; letter-spacing: 1px; }
+      .text-main { font-family: 'Inter', sans-serif; font-size: 14px; fill: #a9b1d6; }
+      .text-muted { font-family: 'Inter', sans-serif; font-size: 12px; fill: #565f89; }
+      .text-accent { font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 600; fill: #7dcfff; }
+      .text-purple { fill: #bb9af7; }
+      
+      /* Stat Boxes */
+      .box { fill: #24283b; rx: 8px; stroke: #414868; stroke-width: 1px; transition: all 0.3s ease; }
+      .box-title { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; fill: #7dcfff; text-transform: uppercase; letter-spacing: 1px; }
+      .box-value { font-family: 'Fira Code', monospace; font-size: 26px; font-weight: 600; fill: #c0caf5; }
+      
+      /* Animations */
+      .status-dot { fill: #9ece6a; filter: drop-shadow(0 0 6px #9ece6a); animation: pulse 2s infinite ease-in-out; }
+      @keyframes pulse {
+        0%, 100% { r: 5px; opacity: 1; }
+        50% { r: 6px; opacity: 0.5; }
+      }
+      
+      .typing-container {
+        animation: typing 4s steps(40, end) infinite;
+        overflow: hidden;
+      }
+      @keyframes typing {
+        0%, 20% { width: 0; }
+        80%, 100% { width: 350px; }
+      }
+      
+      .cursor {
+        fill: #bb9af7;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      
+      .divider { stroke: #292e42; stroke-width: 1px; stroke-dasharray: 4 4; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" class="bg" />
+  
+  <!-- Header Section -->
+  <rect x="25" y="25" width="750" height="45" class="header-bg" />
+  <text x="45" y="53" class="title">⚡ AI DEVELOPER MISSION CONTROL</text>
+  
+  <!-- Status Indicator -->
+  <circle cx="735" cy="47" r="5" class="status-dot" />
+  <text x="590" y="52" class="text-accent" style="font-size: 12px; fill: #9ece6a;">SYSTEM: ONLINE</text>
+  
+  <!-- Top Stats Row -->
+  <g transform="translate(45, 95)">
+    <!-- Box 1 -->
+    <rect width="220" height="75" class="box" />
+    <text x="20" y="28" class="box-title">REPOSITORIES</text>
+    <text x="20" y="62" class="box-value">76</text>
+    
+    <!-- Box 2 -->
+    <rect x="245" y="0" width="220" height="75" class="box" />
+    <text x="265" y="28" class="box-title">TOTAL STARS</text>
+    <text x="265" y="62" class="box-value">71</text>
+    
+    <!-- Box 3 -->
+    <rect x="490" y="0" width="220" height="75" class="box" />
+    <text x="510" y="28" class="box-title">CONTRIBUTIONS</text>
+    <text x="510" y="62" class="box-value">9</text>
+  </g>
+  
+  <!-- Divider -->
+  <line x1="45" y1="195" x2="755" y2="195" class="divider" />
+  
+  <!-- Bottom Content -->
+  <!-- Left Column: Building -->
+  <g transform="translate(45, 225)">
+    <text x="0" y="0" class="text-accent">CURRENTLY BUILDING</text>
+    <text x="0" y="25" class="text-main">▸ Intelligent AI applications</text>
+    <text x="0" y="48" class="text-main">▸ Full-stack web platforms</text>
+    <text x="0" y="71" class="text-main">▸ Generative AI experiments</text>
+  </g>
+  
+  <!-- Right Column: Learning -->
+  <g transform="translate(400, 225)">
+    <text x="0" y="0" class="text-accent">CURRENTLY LEARNING</text>
+    
+    <!-- Animated Typing Effect -->
+    <g transform="translate(0, 10)">
+      <text x="0" y="16" class="text-main" style="font-family: 'Fira Code', monospace; fill: #bb9af7; font-weight: 600;">></text>
+      <!-- The wrapper SVG handles the width animation for typing -->
+      <svg x="15" y="0" width="350" height="30" class="typing-container">
+        <text x="0" y="16" class="text-main" style="font-family: 'Fira Code', monospace; fill: #bb9af7;">Python → AI/ML → GenAI → Cloud</text>
+      </svg>
+      <!-- Blinking Cursor -->
+      <rect x="285" y="4" width="8" height="15" class="cursor" />
+    </g>
+    
+    <text x="0" y="52" class="text-accent">CORE TECH STACK</text>
+    <text x="0" y="74" class="text-main text-purple">React • Node.js • MongoDB • Python • Next.js</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="45" y="325" class="text-muted">Data updated automatically via GitHub Actions • Last run: 2026-08-16 02:21 UTC</text>
+</svg>
