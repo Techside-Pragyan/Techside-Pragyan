@@ -91,9 +91,9 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 > **Note:** The language chart above only reflects non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
 
-<!-- Daily Programming Joke -->
+<!-- Hacker Terminal Animation -->
 <div align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder=true" alt="Daily Programming Joke Card" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=73DACA&center=false&vCenter=true&width=800&height=50&lines=pragyan@ubuntu:~%24+whoami;%3E+Pragyan+Paramita+Moharana+-+Developer+%26+Builder;pragyan@ubuntu:~%24+cat+passions.txt;%3E+AI%2FML,+Full-Stack+Web,+Cybersecurity;pragyan@ubuntu:~%24+.%2Fbuild_future.sh;%3E+Executing...+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+100%25" alt="Hacker Terminal Animation" />
 </div>
 
 ---
