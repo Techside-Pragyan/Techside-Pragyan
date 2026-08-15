@@ -82,10 +82,11 @@
   <!-- Bottom Content -->
   <!-- Left Column: Building -->
   <g transform="translate(45, 225)">
-    <text x="0" y="0" class="text-accent">CURRENTLY BUILDING</text>
-    <text x="0" y="25" class="text-main">▸ Intelligent AI applications</text>
-    <text x="0" y="48" class="text-main">▸ Full-stack web platforms</text>
-    <text x="0" y="71" class="text-main">▸ Generative AI experiments</text>
+    <text x="0" y="0" class="text-accent">CURRENT PROJECTS</text>
+    <text x="0" y="22" class="text-main">▸ 🌸 Flower Classifier <tspan class="text-muted">[90%]</tspan></text>
+    <text x="0" y="44" class="text-main">▸ 🌴 Tourix Platform <tspan class="text-muted">[Live]</tspan></text>
+    <text x="0" y="66" class="text-main">▸ 💄 Aura Cosmetics <tspan class="text-muted">[Live]</tspan></text>
+    <text x="0" y="88" class="text-main">▸ 👩‍💻 GitHub Profile <tspan class="text-muted">[Live]</tspan></text>
   </g>
   
   <!-- Right Column: Learning -->

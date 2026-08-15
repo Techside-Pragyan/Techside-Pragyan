@@ -1,0 +1,157 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&amp;family=Orbitron:wght@500;700&amp;family=Inter:wght@400;600;800&amp;display=swap');
+      
+      .bg { fill: #0f111a; rx: 16px; stroke: #292e42; stroke-width: 1.5; }
+      
+      /* Grid Background */
+      .grid-pattern { stroke: #1f2335; stroke-width: 1; }
+      
+      /* Typography */
+      .name { font-family: 'Orbitron', sans-serif; font-size: 28px; font-weight: 700; fill: #ffffff; letter-spacing: 2px; }
+      .role { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 600; fill: #7dcfff; text-transform: uppercase; letter-spacing: 3px; }
+      .text-code { font-family: 'Fira Code', monospace; font-size: 13px; fill: #a9b1d6; }
+      .highlight { fill: #bb9af7; font-weight: bold; }
+      .accent { fill: #9ece6a; }
+      
+      /* Animations */
+      .pulse-slow { animation: pulse 4s infinite ease-in-out; }
+      .spin-slow { animation: spin 20s linear infinite; transform-origin: center; }
+      .spin-fast { animation: spin 8s linear infinite reverse; transform-origin: center; }
+      .float { animation: float 6s ease-in-out infinite; }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 10px #7dcfff); }
+        50% { opacity: 0.3; filter: drop-shadow(0 0 2px #7dcfff); }
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      
+      /* Glowing lines */
+      .data-stream { stroke: #bb9af7; stroke-width: 2; stroke-dasharray: 10 20; animation: dash 2s linear infinite; fill: none; }
+      @keyframes dash {
+        to { stroke-dashoffset: -30; }
+      }
+
+      /* Radar chart elements */
+      .radar-bg { fill: #16161e; stroke: #292e42; stroke-width: 1; }
+      .radar-line { stroke: #3b4261; stroke-width: 1; stroke-dasharray: 2 2; }
+      .radar-poly { fill: rgba(125, 207, 255, 0.2); stroke: #7dcfff; stroke-width: 2; filter: drop-shadow(0 0 5px rgba(125,207,255,0.5)); }
+      .radar-point { fill: #bb9af7; r: 4; }
+
+    </style>
+    
+    <!-- Pattern for tech grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" class="grid-pattern" />
+    </pattern>
+    
+    <!-- Gradient for glass card -->
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(36, 40, 59, 0.8)" />
+      <stop offset="100%" stop-color="rgba(22, 22, 30, 0.4)" />
+    </linearGradient>
+
+    <!-- Holographic core gradient -->
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bb9af7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="100%" height="100%" fill="url(#grid)" opacity="0.3" rx="16" />
+  
+  <!-- Left Section: Abstract Holographic Core / Brain -->
+  <g transform="translate(180, 200)" class="float">
+    <!-- Glowing Aura -->
+    <circle cx="0" cy="0" r="100" fill="url(#coreGlow)" class="pulse-slow" />
+    
+    <!-- Rotating Tech Rings -->
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#7dcfff" stroke-width="1" stroke-dasharray="10 5 2 5" class="spin-slow" />
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#2ac3de" stroke-width="0.5" stroke-dasharray="50 20" class="spin-fast" />
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#9ece6a" stroke-width="1.5" stroke-dasharray="1 10" class="spin-slow" />
+    
+    <!-- Central AI Icon (Neural Node) -->
+    <path d="M-20,-34 L20,-34 L40,0 L20,34 L-20,34 L-40,0 Z" fill="rgba(26,27,38,0.8)" stroke="#bb9af7" stroke-width="2" />
+    <circle cx="0" cy="0" r="15" fill="#7dcfff" class="pulse-slow" />
+    <!-- Neural Connections -->
+    <line x1="0" y1="-15" x2="0" y2="-34" stroke="#bb9af7" stroke-width="2" />
+    <line x1="13" y1="8" x2="20" y2="34" stroke="#bb9af7" stroke-width="2" />
+    <line x1="-13" y1="8" x2="-20" y2="34" stroke="#bb9af7" stroke-width="2" />
+    
+    <!-- Floating Data Particles -->
+    <circle cx="-60" cy="-50" r="3" fill="#ff9e64" class="pulse-slow" />
+    <circle cx="70" cy="-40" r="2" fill="#9ece6a" />
+    <circle cx="50" cy="70" r="4" fill="#7dcfff" class="pulse-slow" />
+    <circle cx="-50" cy="60" r="2" fill="#bb9af7" />
+  </g>
+
+  <!-- Connection Lines from Core to Data Panel -->
+  <path d="M 280 200 L 330 200 L 350 150 L 380 150" class="data-stream" />
+  <path d="M 270 250 L 310 250 L 330 280 L 380 280" class="data-stream" style="animation-duration: 3s;" />
+
+  <!-- Right Section: Glassmorphism Data Panel -->
+  <g transform="translate(350, 40)">
+    <rect width="410" height="320" fill="url(#glass)" rx="12" stroke="#414868" stroke-width="1" />
+    
+    <!-- Header -->
+    <text x="30" y="45" class="name">PRAGYAN P. MOHARANA</text>
+    <text x="30" y="70" class="role">CSE Scholar <tspan fill="#565f89">|</tspan> AI Engineer <tspan fill="#565f89">|</tspan> Builder</text>
+    <line x1="30" y1="85" x2="380" y2="85" stroke="#292e42" stroke-width="1.5" />
+    
+    <!-- Bio Data -->
+    <text x="30" y="115" class="text-code"><tspan class="highlight">const</tspan> developer = {</text>
+    <text x="50" y="140" class="text-code">focus: [<tspan class="accent">"AI/ML"</tspan>, <tspan class="accent">"Full-Stack"</tspan>, <tspan class="accent">"Cybersec"</tspan>],</text>
+    <text x="50" y="165" class="text-code">goal:  <tspan class="accent">"Create scalable, intelligent systems"</tspan>,</text>
+    <text x="50" y="190" class="text-code">vibe:  <tspan class="accent">"Code is like poetry ✨"</tspan></text>
+    <text x="30" y="215" class="text-code">};</text>
+    
+    <!-- Mini Radar Chart (Skills) -->
+    <g transform="translate(320, 240)">
+      <!-- Hexagon background -->
+      <path d="M 0 -40 L 34.6 -20 L 34.6 20 L 0 40 L -34.6 20 L -34.6 -20 Z" class="radar-bg" />
+      <path d="M 0 -20 L 17.3 -10 L 17.3 10 L 0 20 L -17.3 10 L -17.3 -10 Z" class="radar-line" fill="none" />
+      
+      <!-- Axis Lines -->
+      <line x1="0" y1="0" x2="0" y2="-40" class="radar-line" />
+      <line x1="0" y1="0" x2="34.6" y2="-20" class="radar-line" />
+      <line x1="0" y1="0" x2="34.6" y2="20" class="radar-line" />
+      <line x1="0" y1="0" x2="0" y2="40" class="radar-line" />
+      <line x1="0" y1="0" x2="-34.6" y2="20" class="radar-line" />
+      <line x1="0" y1="0" x2="-34.6" y2="-20" class="radar-line" />
+      
+      <!-- Data Polygon (AI, Web, Cyber, Cloud, Python, JS) -->
+      <!-- Top(AI=90%), TR(Web=85%), BR(Cyber=70%), B(Cloud=60%), BL(Python=95%), TL(JS=80%) -->
+      <path d="M 0 -36 L 29.4 -17 L 24.2 14 L 0 24 L -32.8 19 L -27.6 -16 Z" class="radar-poly" />
+      <circle cx="0" cy="-36" class="radar-point" />
+      <circle cx="29.4" cy="-17" class="radar-point" />
+      <circle cx="-32.8" cy="19" class="radar-point" />
+      
+      <!-- Labels -->
+      <text x="-8" y="-45" class="text-code" style="font-size: 9px; fill: #a9b1d6;">AI</text>
+      <text x="38" y="-22" class="text-code" style="font-size: 9px; fill: #a9b1d6;">WEB</text>
+      <text x="-48" y="-22" class="text-code" style="font-size: 9px; fill: #a9b1d6;">PY</text>
+    </g>
+    
+    <!-- Status Terminal -->
+    <rect x="30" y="240" width="220" height="50" fill="#16161e" rx="6" stroke="#292e42" />
+    <text x="40" y="260" class="text-code" style="font-size: 11px; fill: #565f89;">> system.status</text>
+    <text x="40" y="278" class="text-code" style="font-size: 12px;"><tspan class="accent">●</tspan> Training models... 99%</text>
+  </g>
+  
+  <!-- Decorative Tech Overlays -->
+  <rect x="20" y="20" width="30" height="30" fill="none" stroke="#292e42" stroke-width="2" stroke-dasharray="10 20" />
+  <rect x="750" y="350" width="30" height="30" fill="none" stroke="#292e42" stroke-width="2" stroke-dasharray="10 20" />
+  <text x="30" y="380" class="text-code" style="font-size: 10px; fill: #414868;">ID: PPM-001 // SYSTEM ONLINE</text>
+</svg>

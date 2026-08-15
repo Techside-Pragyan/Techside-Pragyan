@@ -10,33 +10,11 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑‍💻 Digital Identity
 
-<table>
-<tr>
-<td width="55%">
-
-```yaml
-name: Pragyan Paramita Moharana
-role: Computer Science & Engineering Student @ DRIEMS University
-focus:
-  - Artificial Intelligence & Machine Learning
-  - Full-Stack Web Development (MERN Stack)
-  - Cybersecurity
-passion: Bridging innovative ideas with transformative technologies
-goal: Creating efficient, scalable solutions that make a difference
-currently_learning: Advanced AI/ML techniques, web development, cyber security & Cloud Technologies
-fun_fact: I believe great code is like great poetry — elegant and expressive ✨
-```
-
-</td>
-<td width="45%" align="center">
-
-<img src="./assets/animated_avatar.svg" width="320" alt="Animated Developer Avatar"/>
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="./assets/about_me_interface.svg" alt="Digital Identity Interface" width="100%" />
+</div>
 
 <div align="center">
 
@@ -65,18 +43,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 
 </div>
 
----
 
-## 🎯 Currently Working On
-
-```text
-👩‍💻 GitHub Profile      ██████████████  100% - Perfected analytics and widgets
-🌸 Flower Classifier    ████████████░░   90% - AI-powered image recognition
-🌴 Tourix Platform      ██████████████  100% - Full-Stack Tourism & Booking
-💄 Aura Cosmetics       ██████████████  100% - Next.js E-Commerce Application
-```
-
----
 
 ## 📊 GitHub Analytics
 
