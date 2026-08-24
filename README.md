@@ -92,14 +92,6 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techside-Pragyan&theme=tokyo-night&bg_color=1a1b26&color=7dcfff&line=bb9af7&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph" />
 </div>
 
-<br/>
-
-<div align="center">
-  <!-- Profile Details (Contributions) and Productive Time (Time Spent) -->
-  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" />
-</div>
-
 ---
 
 ## 🏆 GitHub Trophies
