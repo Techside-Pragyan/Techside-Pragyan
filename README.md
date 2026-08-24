@@ -113,11 +113,13 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 ## 💻 My Coding Activity & Habits
 
 <div align="center">
-  <img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top Languages by Repo" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages by Commit" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" />
 </div>
 
-> **Note:** The language charts above only reflect non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
+<div align="center">
+  <img width="60%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
+</div>
 
 ---
 
