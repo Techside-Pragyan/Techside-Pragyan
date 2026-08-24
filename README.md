@@ -83,11 +83,7 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
   <img width="49%" src="./assets/streak-stats.svg" />
 </div>
 
-<div align="center">
-  <img width="40%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" />
-</div>
-
-> **Note:** The language chart above only reflects non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
+---
 
 ## 📈 Contribution & Time Analytics
 
@@ -117,13 +113,11 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 ## 💻 My Coding Activity & Habits
 
 <div align="center">
-  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top Languages by Repo" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages by Commit" />
 </div>
 
-<div align="center">
-  <img width="60%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
-</div>
+> **Note:** The language charts above only reflect non-forked repositories. My full skill set includes **Python, Java, C, C++, PHP** and more — see the Tech Stack section above.
 
 ---
 
