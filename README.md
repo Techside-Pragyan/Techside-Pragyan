@@ -80,7 +80,7 @@ fun_fact: I believe great code is like great poetry â€” elegant and expressive â
 
 <div align="center">
   <img width="49%" src="./profile-summary-card-output/tokyonight/3-stats.svg" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Techside-Pragyan&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=Techside-Pragyan&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
