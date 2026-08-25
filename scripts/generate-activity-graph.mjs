@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const USERNAME = process.env.USERNAME || "Techside-Pragyan";
+const USERNAME = process.env.GH_USERNAME || process.env.GITHUB_REPOSITORY_OWNER || "Techside-Pragyan";
 const OUTPUT_PATH = process.env.OUTPUT_PATH || path.join(__dirname, "../assets/activity-graph.svg");
 
 async function fetchContributions(username) {
