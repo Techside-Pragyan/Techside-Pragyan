@@ -89,7 +89,7 @@ fun_fact: I believe great code is like great poetry â€” elegant and expressive â
 
 <div align="center">
   <!-- Live Weekly/Monthly Contribution Activity Graph -->
-  <img src="https://raw.githubusercontent.com/Techside-Pragyan/Techside-Pragyan/main/assets/activity-graph.svg" width="100%" alt="Contribution Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techside-Pragyan&theme=tokyo-night&bg_color=1a1b26&color=7dcfff&line=bb9af7&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph" />
 </div>
 
 ---
