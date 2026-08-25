@@ -88,8 +88,8 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 ## 📈 Contribution & Time Analytics
 
 <div align="center">
-  <!-- Live Weekly/Monthly Contribution Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techside-Pragyan&theme=tokyo-night&bg_color=1a1b26&color=7dcfff&line=bb9af7&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" />
 </div>
 
 ---
@@ -105,12 +105,8 @@ fun_fact: I believe great code is like great poetry — elegant and expressive �
 ## 💻 My Coding Activity & Habits
 
 <div align="center">
-  <img width="49%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" />
-  <img width="49%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" />
-</div>
-
-<div align="center">
-  <img width="60%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" />
+  <img width="49%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
 </div>
 
 ---
