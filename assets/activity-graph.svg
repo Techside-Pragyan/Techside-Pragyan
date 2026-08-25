@@ -1,475 +1,368 @@
-<svg width="960" height="450" viewBox="0 0 960 450" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .title { font-family: 'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-size: 18px; font-weight: 700; fill: #70a5fd; }
-    .subtitle { font-family: 'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-size: 13px; fill: #a9b1d6; }
-    .highlight { font-weight: 700; fill: #bb9af7; }
-    .stat-badge { font-weight: 600; fill: #7dcfff; }
-    circle:hover { r: 6.5px; fill: #bb9af7; stroke: #ffffff; cursor: pointer; transition: all 0.2s ease; }
-    .commit-badge:hover text { fill: #ffffff; }
-    .commit-badge:hover rect { fill: #7aa2f7; stroke: #ffffff; }
-  </style>
-
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="850" height="400" viewBox="0 0 850 400">
   <defs>
     <linearGradient id="tokyoNightArea" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#bb9af7" stop-opacity="0.45" />
-      <stop offset="60%" stop-color="#7aa2f7" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0.0" />
+      <stop offset="0%" stop-color="#bb9af7" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#7aa2f7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0.0"/>
     </linearGradient>
     <linearGradient id="tokyoNightLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7dcfff" />
-      <stop offset="50%" stop-color="#bb9af7" />
-      <stop offset="100%" stop-color="#7aa2f7" />
+      <stop offset="0%" stop-color="#7dcfff"/>
+      <stop offset="50%" stop-color="#bb9af7"/>
+      <stop offset="100%" stop-color="#7aa2f7"/>
     </linearGradient>
   </defs>
 
   <!-- Background card -->
-  <rect width="100%" height="100%" fill="#1a1b26" rx="10" />
+  <rect width="100%" height="100%" fill="#1a1b26" rx="8"/>
 
   <!-- Header Section -->
-  <text x="55" y="36" class="title">📈 Daily Contribution &amp; Commit Analytics</text>
-  <text x="915" y="36" text-anchor="end" class="subtitle">
-    Last 31 Days: <tspan class="highlight">236 Commits</tspan>
-    &nbsp;•&nbsp; Active Days: <tspan class="stat-badge">11/31</tspan>
-    &nbsp;•&nbsp; Peak: <tspan class="stat-badge">110/day</tspan>
-  </text>
+  <text x="50" y="34" fill="#70a5fd" font-size="17" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">Contribution &amp; Time Analytics</text>
+  <text x="815" y="34" text-anchor="end" fill="#a9b1d6" font-size="12" font-family="'Segoe UI', Ubuntu, sans-serif">Last 31 Days: <tspan fill="#bb9af7" font-weight="700">236 Commits</tspan> &bull; Active: <tspan fill="#7dcfff" font-weight="600">11/31 Days</tspan> &bull; Peak: <tspan fill="#7dcfff" font-weight="600">110/Day</tspan></text>
 
   <!-- Vertical & Horizontal Grid -->
   
-    <line x1="55" y1="75" x2="55" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="83.67" y1="75" x2="83.67" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="112.33" y1="75" x2="112.33" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="141" y1="75" x2="141" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="169.67" y1="75" x2="169.67" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="198.33" y1="75" x2="198.33" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="227" y1="75" x2="227" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="255.67" y1="75" x2="255.67" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="284.33" y1="75" x2="284.33" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="313" y1="75" x2="313" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="341.67" y1="75" x2="341.67" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="370.33" y1="75" x2="370.33" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="399" y1="75" x2="399" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="427.67" y1="75" x2="427.67" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="456.33" y1="75" x2="456.33" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="485" y1="75" x2="485" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="485" y1="250" x2="485" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="513.67" y1="75" x2="513.67" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="542.33" y1="75" x2="542.33" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="571" y1="75" x2="571" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="571" y1="352.5" x2="571" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="599.67" y1="75" x2="599.67" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="599.67" y1="310" x2="599.67" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="628.33" y1="75" x2="628.33" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="628.33" y1="292.5" x2="628.33" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="657" y1="75" x2="657" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="657" y1="80" x2="657" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="685.67" y1="75" x2="685.67" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="685.67" y1="342.5" x2="685.67" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="714.33" y1="75" x2="714.33" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="743" y1="75" x2="743" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="743" y1="350" x2="743" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="771.67" y1="75" x2="771.67" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="771.67" y1="350" x2="771.67" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="800.33" y1="75" x2="800.33" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
-    <line x1="829" y1="75" x2="829" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="829" y1="337.5" x2="829" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="857.67" y1="75" x2="857.67" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="857.67" y1="345" x2="857.67" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="886.33" y1="75" x2="886.33" y2="355" stroke="#3b4261" stroke-width="1" stroke-dasharray="none" />
-    <line x1="886.33" y1="305" x2="886.33" y2="355" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35" />
-    <line x1="915" y1="75" x2="915" y2="355" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2" />
+  <line x1="50" y1="70" x2="50" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="75.5" y1="70" x2="75.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="101" y1="70" x2="101" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="126.5" y1="70" x2="126.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="152" y1="70" x2="152" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="177.5" y1="70" x2="177.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="203" y1="70" x2="203" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="228.5" y1="70" x2="228.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="254" y1="70" x2="254" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="279.5" y1="70" x2="279.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="305" y1="70" x2="305" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="330.5" y1="70" x2="330.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="356" y1="70" x2="356" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="381.5" y1="70" x2="381.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="407" y1="70" x2="407" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="432.5" y1="70" x2="432.5" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="432.5" y1="223.13" x2="432.5" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="458" y1="70" x2="458" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="483.5" y1="70" x2="483.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="509" y1="70" x2="509" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="509" y1="312.81" x2="509" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="534.5" y1="70" x2="534.5" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="534.5" y1="275.63" x2="534.5" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="560" y1="70" x2="560" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="560" y1="260.31" x2="560" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="585.5" y1="70" x2="585.5" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="585.5" y1="74.38" x2="585.5" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="611" y1="70" x2="611" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="611" y1="304.06" x2="611" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="636.5" y1="70" x2="636.5" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="662" y1="70" x2="662" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="662" y1="310.63" x2="662" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="687.5" y1="70" x2="687.5" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="687.5" y1="310.63" x2="687.5" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="713" y1="70" x2="713" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="738.5" y1="70" x2="738.5" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="738.5" y1="299.69" x2="738.5" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="764" y1="70" x2="764" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="764" y1="306.25" x2="764" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="789.5" y1="70" x2="789.5" y2="315" stroke="#3b4261" stroke-width="1" stroke-dasharray="none"/>
+  <line x1="789.5" y1="271.25" x2="789.5" y2="315" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.4"/>
+  <line x1="815" y1="70" x2="815" y2="315" stroke="#1f2335" stroke-width="0.75" stroke-dasharray="2 2"/>
   
-    <line x1="55" y1="355" x2="915" y2="355" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1" />
-    <text x="43" y="359" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    <line x1="55" y1="285" x2="915" y2="285" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1" />
-    <text x="43" y="289" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">28</text>
-    <line x1="55" y1="215" x2="915" y2="215" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1" />
-    <text x="43" y="219" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">56</text>
-    <line x1="55" y1="145" x2="915" y2="145" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1" />
-    <text x="43" y="149" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">84</text>
-    <line x1="55" y1="75" x2="915" y2="75" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1" />
-    <text x="43" y="79" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">112</text>
-  <line x1="55" y1="355" x2="915" y2="355" stroke="#414868" stroke-width="1.5" />
+  <line x1="50" y1="315" x2="815" y2="315" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1"/>
+  <text x="40" y="319" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="600" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  <line x1="50" y1="253.75" x2="815" y2="253.75" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1"/>
+  <text x="40" y="257.75" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="600" font-family="'Segoe UI', Ubuntu, sans-serif">28</text>
+  <line x1="50" y1="192.5" x2="815" y2="192.5" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1"/>
+  <text x="40" y="196.5" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="600" font-family="'Segoe UI', Ubuntu, sans-serif">56</text>
+  <line x1="50" y1="131.25" x2="815" y2="131.25" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1"/>
+  <text x="40" y="135.25" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="600" font-family="'Segoe UI', Ubuntu, sans-serif">84</text>
+  <line x1="50" y1="70" x2="815" y2="70" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1"/>
+  <text x="40" y="74" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="600" font-family="'Segoe UI', Ubuntu, sans-serif">112</text>
+  <line x1="50" y1="315" x2="815" y2="315" stroke="#414868" stroke-width="1.5"/>
 
   <!-- Area & Line Graph -->
-  <path d="M 55 355 C 69.34 355, 69.34 355, 83.67 355 C 98 355, 98 355, 112.33 355 C 126.66 355, 126.66 355, 141 355 C 155.33 355, 155.33 355, 169.67 355 C 184 355, 184 355, 198.33 355 C 212.67 355, 212.67 355, 227 355 C 241.33 355, 241.33 355, 255.67 355 C 270 355, 270 355, 284.33 355 C 298.66 355, 298.66 355, 313 355 C 327.34 355, 327.34 355, 341.67 355 C 356 355, 356 355, 370.33 355 C 384.66 355, 384.66 355, 399 355 C 413.34 355, 413.34 355, 427.67 355 C 442 355, 442 355, 456.33 355 C 470.66 355, 470.66 250, 485 250 C 499.33 250, 499.33 355, 513.67 355 C 528 355, 528 355, 542.33 355 C 556.66 355, 556.66 352.5, 571 352.5 C 585.34 352.5, 585.34 310, 599.67 310 C 614 310, 614 292.5, 628.33 292.5 C 642.66 292.5, 642.66 80, 657 80 C 671.34 80, 671.34 342.5, 685.67 342.5 C 700 342.5, 700 355, 714.33 355 C 728.66 355, 728.66 350, 743 350 C 757.34 350, 757.34 350, 771.67 350 C 786 350, 786 355, 800.33 355 C 814.66 355, 814.66 337.5, 829 337.5 C 843.34 337.5, 843.34 345, 857.67 345 C 872 345, 872 305, 886.33 305 C 900.66 305, 900.66 355, 915 355 L 915 355 L 55 355 Z" fill="url(#tokyoNightArea)" />
-  <path d="M 55 355 C 69.34 355, 69.34 355, 83.67 355 C 98 355, 98 355, 112.33 355 C 126.66 355, 126.66 355, 141 355 C 155.33 355, 155.33 355, 169.67 355 C 184 355, 184 355, 198.33 355 C 212.67 355, 212.67 355, 227 355 C 241.33 355, 241.33 355, 255.67 355 C 270 355, 270 355, 284.33 355 C 298.66 355, 298.66 355, 313 355 C 327.34 355, 327.34 355, 341.67 355 C 356 355, 356 355, 370.33 355 C 384.66 355, 384.66 355, 399 355 C 413.34 355, 413.34 355, 427.67 355 C 442 355, 442 355, 456.33 355 C 470.66 355, 470.66 250, 485 250 C 499.33 250, 499.33 355, 513.67 355 C 528 355, 528 355, 542.33 355 C 556.66 355, 556.66 352.5, 571 352.5 C 585.34 352.5, 585.34 310, 599.67 310 C 614 310, 614 292.5, 628.33 292.5 C 642.66 292.5, 642.66 80, 657 80 C 671.34 80, 671.34 342.5, 685.67 342.5 C 700 342.5, 700 355, 714.33 355 C 728.66 355, 728.66 350, 743 350 C 757.34 350, 757.34 350, 771.67 350 C 786 350, 786 355, 800.33 355 C 814.66 355, 814.66 337.5, 829 337.5 C 843.34 337.5, 843.34 345, 857.67 345 C 872 345, 872 305, 886.33 305 C 900.66 305, 900.66 355, 915 355" fill="none" stroke="url(#tokyoNightLine)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 50 315 C 62.75 315, 62.75 315, 75.5 315 C 88.25 315, 88.25 315, 101 315 C 113.75 315, 113.75 315, 126.5 315 C 139.25 315, 139.25 315, 152 315 C 164.75 315, 164.75 315, 177.5 315 C 190.25 315, 190.25 315, 203 315 C 215.75 315, 215.75 315, 228.5 315 C 241.25 315, 241.25 315, 254 315 C 266.75 315, 266.75 315, 279.5 315 C 292.25 315, 292.25 315, 305 315 C 317.75 315, 317.75 315, 330.5 315 C 343.25 315, 343.25 315, 356 315 C 368.75 315, 368.75 315, 381.5 315 C 394.25 315, 394.25 315, 407 315 C 419.75 315, 419.75 223.13, 432.5 223.13 C 445.25 223.13, 445.25 315, 458 315 C 470.75 315, 470.75 315, 483.5 315 C 496.25 315, 496.25 312.81, 509 312.81 C 521.75 312.81, 521.75 275.63, 534.5 275.63 C 547.25 275.63, 547.25 260.31, 560 260.31 C 572.75 260.31, 572.75 74.38, 585.5 74.38 C 598.25 74.38, 598.25 304.06, 611 304.06 C 623.75 304.06, 623.75 315, 636.5 315 C 649.25 315, 649.25 310.63, 662 310.63 C 674.75 310.63, 674.75 310.63, 687.5 310.63 C 700.25 310.63, 700.25 315, 713 315 C 725.75 315, 725.75 299.69, 738.5 299.69 C 751.25 299.69, 751.25 306.25, 764 306.25 C 776.75 306.25, 776.75 271.25, 789.5 271.25 C 802.25 271.25, 802.25 315, 815 315 L 815 315 L 50 315 Z" fill="url(#tokyoNightArea)"/>
+  <path d="M 50 315 C 62.75 315, 62.75 315, 75.5 315 C 88.25 315, 88.25 315, 101 315 C 113.75 315, 113.75 315, 126.5 315 C 139.25 315, 139.25 315, 152 315 C 164.75 315, 164.75 315, 177.5 315 C 190.25 315, 190.25 315, 203 315 C 215.75 315, 215.75 315, 228.5 315 C 241.25 315, 241.25 315, 254 315 C 266.75 315, 266.75 315, 279.5 315 C 292.25 315, 292.25 315, 305 315 C 317.75 315, 317.75 315, 330.5 315 C 343.25 315, 343.25 315, 356 315 C 368.75 315, 368.75 315, 381.5 315 C 394.25 315, 394.25 315, 407 315 C 419.75 315, 419.75 223.13, 432.5 223.13 C 445.25 223.13, 445.25 315, 458 315 C 470.75 315, 470.75 315, 483.5 315 C 496.25 315, 496.25 312.81, 509 312.81 C 521.75 312.81, 521.75 275.63, 534.5 275.63 C 547.25 275.63, 547.25 260.31, 560 260.31 C 572.75 260.31, 572.75 74.38, 585.5 74.38 C 598.25 74.38, 598.25 304.06, 611 304.06 C 623.75 304.06, 623.75 315, 636.5 315 C 649.25 315, 649.25 310.63, 662 310.63 C 674.75 310.63, 674.75 310.63, 687.5 310.63 C 700.25 310.63, 700.25 315, 713 315 C 725.75 315, 725.75 299.69, 738.5 299.69 C 751.25 299.69, 751.25 306.25, 764 306.25 C 776.75 306.25, 776.75 271.25, 789.5 271.25 C 802.25 271.25, 802.25 315, 815 315" fill="none" stroke="url(#tokyoNightLine)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Floating Commit Badges -->
   
-    <g class="commit-badge" transform="translate(485, 238)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">42</text>
-    </g>
-    <g class="commit-badge" transform="translate(571, 340.5)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">1</text>
-    </g>
-    <g class="commit-badge" transform="translate(599.67, 298)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">18</text>
-    </g>
-    <g class="commit-badge" transform="translate(628.33, 280.5)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">25</text>
-    </g>
-    <g class="commit-badge" transform="translate(657, 89)">
-      <rect x="-15" y="-14" width="30" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">110</text>
-    </g>
-    <g class="commit-badge" transform="translate(685.67, 330.5)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">5</text>
-    </g>
-    <g class="commit-badge" transform="translate(743, 338)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">2</text>
-    </g>
-    <g class="commit-badge" transform="translate(771.67, 338)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">2</text>
-    </g>
-    <g class="commit-badge" transform="translate(829, 325.5)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">7</text>
-    </g>
-    <g class="commit-badge" transform="translate(857.67, 333)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">4</text>
-    </g>
-    <g class="commit-badge" transform="translate(886.33, 293)">
-      <rect x="-11" y="-14" width="22" height="16" rx="4" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2" />
-      <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">20</text>
-    </g>
+  <g transform="translate(432.5, 213.13)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">42</text>
+  </g>
+  <g transform="translate(509, 302.81)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">1</text>
+  </g>
+  <g transform="translate(534.5, 265.63)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">18</text>
+  </g>
+  <g transform="translate(560, 250.31)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">25</text>
+  </g>
+  <g transform="translate(585.5, 84)">
+    <rect x="-13" y="-13" width="26" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">110</text>
+  </g>
+  <g transform="translate(611, 294.06)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">5</text>
+  </g>
+  <g transform="translate(662, 300.63)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">2</text>
+  </g>
+  <g transform="translate(687.5, 300.63)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">2</text>
+  </g>
+  <g transform="translate(738.5, 289.69)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">7</text>
+  </g>
+  <g transform="translate(764, 296.25)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">4</text>
+  </g>
+  <g transform="translate(789.5, 261.25)">
+    <rect x="-10" y="-13" width="20" height="14" rx="3" fill="#1f2335" stroke="#bb9af7" stroke-width="1"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#7dcfff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">20</text>
+  </g>
 
   <!-- Interactive Points -->
   
-    <circle cx="55" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-07-26 (Jul 26): 0 commits</title>
-    </circle>
-    <circle cx="83.67" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-07-27 (Jul 27): 0 commits</title>
-    </circle>
-    <circle cx="112.33" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-07-28 (Jul 28): 0 commits</title>
-    </circle>
-    <circle cx="141" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-07-29 (Jul 29): 0 commits</title>
-    </circle>
-    <circle cx="169.67" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-07-30 (Jul 30): 0 commits</title>
-    </circle>
-    <circle cx="198.33" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-07-31 (Jul 31): 0 commits</title>
-    </circle>
-    <circle cx="227" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-01 (Aug 1): 0 commits</title>
-    </circle>
-    <circle cx="255.67" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-02 (Aug 2): 0 commits</title>
-    </circle>
-    <circle cx="284.33" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-03 (Aug 3): 0 commits</title>
-    </circle>
-    <circle cx="313" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-04 (Aug 4): 0 commits</title>
-    </circle>
-    <circle cx="341.67" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-05 (Aug 5): 0 commits</title>
-    </circle>
-    <circle cx="370.33" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-06 (Aug 6): 0 commits</title>
-    </circle>
-    <circle cx="399" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-07 (Aug 7): 0 commits</title>
-    </circle>
-    <circle cx="427.67" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-08 (Aug 8): 0 commits</title>
-    </circle>
-    <circle cx="456.33" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-09 (Aug 9): 0 commits</title>
-    </circle>
-    <circle cx="485" cy="250" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-10 (Aug 10): 42 commits</title>
-    </circle>
-    <circle cx="513.67" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-11 (Aug 11): 0 commits</title>
-    </circle>
-    <circle cx="542.33" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-12 (Aug 12): 0 commits</title>
-    </circle>
-    <circle cx="571" cy="352.5" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-13 (Aug 13): 1 commit</title>
-    </circle>
-    <circle cx="599.67" cy="310" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-14 (Aug 14): 18 commits</title>
-    </circle>
-    <circle cx="628.33" cy="292.5" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-15 (Aug 15): 25 commits</title>
-    </circle>
-    <circle cx="657" cy="80" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-16 (Aug 16): 110 commits</title>
-    </circle>
-    <circle cx="685.67" cy="342.5" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-17 (Aug 17): 5 commits</title>
-    </circle>
-    <circle cx="714.33" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-18 (Aug 18): 0 commits</title>
-    </circle>
-    <circle cx="743" cy="350" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-19 (Aug 19): 2 commits</title>
-    </circle>
-    <circle cx="771.67" cy="350" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-20 (Aug 20): 2 commits</title>
-    </circle>
-    <circle cx="800.33" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-21 (Aug 21): 0 commits</title>
-    </circle>
-    <circle cx="829" cy="337.5" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-22 (Aug 22): 7 commits</title>
-    </circle>
-    <circle cx="857.67" cy="345" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-23 (Aug 23): 4 commits</title>
-    </circle>
-    <circle cx="886.33" cy="305" r="4.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2.5">
-      <title>2026-08-24 (Aug 24): 20 commits</title>
-    </circle>
-    <circle cx="915" cy="355" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1">
-      <title>2026-08-25 (Aug 25): 0 commits</title>
-    </circle>
+  <circle cx="50" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="75.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="101" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="126.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="152" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="177.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="203" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="228.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="254" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="279.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="305" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="330.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="356" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="381.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="407" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="432.5" cy="223.13" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="458" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="483.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="509" cy="312.81" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="534.5" cy="275.63" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="560" cy="260.31" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="585.5" cy="74.38" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="611" cy="304.06" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="636.5" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="662" cy="310.63" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="687.5" cy="310.63" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="713" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
+  <circle cx="738.5" cy="299.69" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="764" cy="306.25" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="789.5" cy="271.25" r="4" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="815" cy="315" r="2.5" fill="#414868" stroke="#1a1b26" stroke-width="1"/>
 
   <!-- Everyday Day & Commit Labels Row -->
   
-    <!-- Day 26 -->
-    <g class="day-col" transform="translate(55, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">26</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 27 -->
-    <g class="day-col" transform="translate(83.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">27</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 28 -->
-    <g class="day-col" transform="translate(112.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">28</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 29 -->
-    <g class="day-col" transform="translate(141, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">29</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 30 -->
-    <g class="day-col" transform="translate(169.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">30</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 31 -->
-    <g class="day-col" transform="translate(198.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">31</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 01 -->
-    <g class="day-col" transform="translate(227, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">01</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 02 -->
-    <g class="day-col" transform="translate(255.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">02</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 03 -->
-    <g class="day-col" transform="translate(284.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">03</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 04 -->
-    <g class="day-col" transform="translate(313, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">04</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 05 -->
-    <g class="day-col" transform="translate(341.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">05</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 06 -->
-    <g class="day-col" transform="translate(370.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">06</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 07 -->
-    <g class="day-col" transform="translate(399, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">07</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 08 -->
-    <g class="day-col" transform="translate(427.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">08</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 09 -->
-    <g class="day-col" transform="translate(456.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">09</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 10 -->
-    <g class="day-col" transform="translate(485, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">10</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">42</text>
-    </g>
-    <!-- Day 11 -->
-    <g class="day-col" transform="translate(513.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">11</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 12 -->
-    <g class="day-col" transform="translate(542.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">12</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 13 -->
-    <g class="day-col" transform="translate(571, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">13</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">1</text>
-    </g>
-    <!-- Day 14 -->
-    <g class="day-col" transform="translate(599.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">14</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">18</text>
-    </g>
-    <!-- Day 15 -->
-    <g class="day-col" transform="translate(628.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">15</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">25</text>
-    </g>
-    <!-- Day 16 -->
-    <g class="day-col" transform="translate(657, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">16</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">110</text>
-    </g>
-    <!-- Day 17 -->
-    <g class="day-col" transform="translate(685.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">17</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">5</text>
-    </g>
-    <!-- Day 18 -->
-    <g class="day-col" transform="translate(714.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">18</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 19 -->
-    <g class="day-col" transform="translate(743, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">19</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">2</text>
-    </g>
-    <!-- Day 20 -->
-    <g class="day-col" transform="translate(771.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">20</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">2</text>
-    </g>
-    <!-- Day 21 -->
-    <g class="day-col" transform="translate(800.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">21</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
-    <!-- Day 22 -->
-    <g class="day-col" transform="translate(829, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">22</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">7</text>
-    </g>
-    <!-- Day 23 -->
-    <g class="day-col" transform="translate(857.67, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">23</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">4</text>
-    </g>
-    <!-- Day 24 -->
-    <g class="day-col" transform="translate(886.33, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#7dcfff" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#7dcfff" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">24</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">20</text>
-    </g>
-    <!-- Day 25 -->
-    <g class="day-col" transform="translate(915, 355)">
-      <line x1="0" y1="0" x2="0" y2="6" stroke="#414868" stroke-width="1" />
-      <text x="0" y="20" text-anchor="middle" fill="#565f89" font-size="10" font-weight="500" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">25</text>
-      <rect x="-10" y="27" width="20" height="15" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75" />
-      <text x="0" y="38" text-anchor="middle" fill="#414868" font-size="9" font-weight="400" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">0</text>
-    </g>
+  <g transform="translate(50, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">26</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(75.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">27</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(101, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">28</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(126.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">29</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(152, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">30</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(177.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">31</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(203, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">01</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(228.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">02</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(254, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">03</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(279.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">04</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(305, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">05</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(330.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">06</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(356, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">07</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(381.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">08</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(407, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">09</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(432.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">10</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">42</text>
+  </g>
+  <g transform="translate(458, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">11</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(483.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">12</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(509, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">13</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">1</text>
+  </g>
+  <g transform="translate(534.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">14</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">18</text>
+  </g>
+  <g transform="translate(560, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">15</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">25</text>
+  </g>
+  <g transform="translate(585.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">16</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">110</text>
+  </g>
+  <g transform="translate(611, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">17</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">5</text>
+  </g>
+  <g transform="translate(636.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">18</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(662, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">19</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">2</text>
+  </g>
+  <g transform="translate(687.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">20</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">2</text>
+  </g>
+  <g transform="translate(713, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">21</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
+  <g transform="translate(738.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">22</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">7</text>
+  </g>
+  <g transform="translate(764, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">23</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">4</text>
+  </g>
+  <g transform="translate(789.5, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#7dcfff" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">24</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#24283b" stroke="#bb9af7" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">20</text>
+  </g>
+  <g transform="translate(815, 315)">
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" fill="#565f89" font-size="9.5" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">25</text>
+    <rect x="-9" y="24" width="18" height="14" rx="3" fill="#16161e" stroke="#1f2335" stroke-width="0.75"/>
+    <text x="0" y="34.5" text-anchor="middle" fill="#414868" font-size="8.5" font-weight="400" font-family="'Segoe UI', Ubuntu, sans-serif">0</text>
+  </g>
 
   <!-- Month Indicators -->
   
-    <g transform="translate(126.665, 415)">
-      <rect x="-35" y="-12" width="70" height="18" rx="9" fill="#24283b" stroke="#414868" stroke-width="1" />
-      <text x="0" y="1" text-anchor="middle" fill="#bb9af7" font-size="11" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">Jul 2026</text>
-    </g>
-    <g transform="translate(571, 415)">
-      <rect x="-35" y="-12" width="70" height="18" rx="9" fill="#24283b" stroke="#414868" stroke-width="1" />
-      <text x="0" y="1" text-anchor="middle" fill="#bb9af7" font-size="11" font-weight="700" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">Aug 2026</text>
-    </g>
+  <g transform="translate(113.75, 369)">
+    <rect x="-32" y="-10" width="64" height="16" rx="8" fill="#24283b" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="2" text-anchor="middle" fill="#bb9af7" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">Jul 2026</text>
+  </g>
+  <g transform="translate(509, 369)">
+    <rect x="-32" y="-10" width="64" height="16" rx="8" fill="#24283b" stroke="#414868" stroke-width="1"/>
+    <text x="0" y="2" text-anchor="middle" fill="#bb9af7" font-size="10" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 2026</text>
+  </g>
 
-  <!-- Legend / Guide -->
-  <g transform="translate(55, 415)">
-    <text x="0" y="1" fill="#565f89" font-size="10" font-family="'Segoe UI', Ubuntu, -apple-system, BlinkMacSystemFont, Roboto, sans-serif">Top: Date (DD) | Box: Commits</text>
+  <!-- Legend -->
+  <g transform="translate(50, 369)">
+    <text x="0" y="2" fill="#565f89" font-size="9.5" font-family="'Segoe UI', Ubuntu, sans-serif">Date (Top) &bull; Commits (Box)</text>
   </g>
 </svg>
