@@ -30,12 +30,12 @@ async function fetchContributions(username) {
 }
 
 function generateSvg(days, username) {
-  const width = 920;
-  const height = 430;
-  const paddingLeft = 50;
-  const paddingRight = 40;
-  const paddingTop = 75;
-  const paddingBottom = 90;
+  const width = 850;
+  const height = 380;
+  const paddingLeft = 55;
+  const paddingRight = 35;
+  const paddingTop = 70;
+  const paddingBottom = 55;
 
   const graphWidth = width - paddingLeft - paddingRight;
   const graphHeight = height - paddingTop - paddingBottom;
@@ -54,7 +54,6 @@ function generateSvg(days, username) {
       y: Number(y.toFixed(2)),
       count: d.count,
       date: d.date,
-      dayIndex: i,
     };
   });
 
@@ -77,104 +76,36 @@ function generateSvg(days, username) {
     const y = paddingTop + graphHeight - (i / ySteps) * graphHeight;
     yGridSvg += `
   <line x1="${paddingLeft}" y1="${y}" x2="${width - paddingRight}" y2="${y}" stroke="#24283b" stroke-dasharray="3 3" stroke-width="1"/>
-  <text x="${paddingLeft - 10}" y="${y + 4}" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="600" font-family="'Segoe UI', Ubuntu, sans-serif">${val}</text>`;
+  <text x="${paddingLeft - 12}" y="${y + 4}" text-anchor="end" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">${val}</text>`;
   }
 
-  // Vertical guidelines and everyday details
-  let verticalGuidesSvg = "";
-  let everydayLabelsSvg = "";
-  let commitBadgesSvg = "";
+  // X Axis labels (Every 5 days + last day)
+  let xLabelsSvg = "";
+  const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  days.forEach((d, i) => {
+    if (i % 5 === 0 || i === days.length - 1) {
+      const p = points[i];
+      const dt = new Date(d.date);
+      const label = `${monthNames[dt.getUTCMonth()]} ${dt.getUTCDate()}`;
+      xLabelsSvg += `
+  <line x1="${p.x}" y1="${paddingTop + graphHeight}" x2="${p.x}" y2="${paddingTop + graphHeight + 6}" stroke="#7dcfff" stroke-width="1"/>
+  <text x="${p.x}" y="${paddingTop + graphHeight + 22}" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">${label}</text>`;
+    }
+  });
+
+  // Circle points
   let pointsSvg = "";
-
-  const monthNamesShort = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-  // Detect month spans
-  const monthSpans = [];
-  let currentMonth = null;
-  days.forEach((d, i) => {
-    const dt = new Date(d.date);
-    const m = dt.getUTCMonth();
-    if (m !== currentMonth) {
-      if (monthSpans.length > 0) {
-        monthSpans[monthSpans.length - 1].endIndex = i - 1;
-      }
-      monthSpans.push({
-        monthName: monthNamesShort[m],
-        year: dt.getUTCFullYear(),
-        startIndex: i,
-        endIndex: days.length - 1,
-      });
-      currentMonth = m;
-    }
-  });
-
-  days.forEach((d, i) => {
-    const p = points[i];
-    const dt = new Date(d.date);
-    const dayNum = dt.getUTCDate();
-    const dayStr = dayNum < 10 ? `0${dayNum}` : `${dayNum}`;
-    const isActive = d.count > 0;
-
-    // Subtle vertical guide line for every day
-    verticalGuidesSvg += `
-  <line x1="${p.x}" y1="${paddingTop}" x2="${p.x}" y2="${paddingTop + graphHeight}" stroke="${isActive ? "#3b4261" : "#1f2335"}" stroke-width="${isActive ? "1" : "0.75"}" stroke-dasharray="${isActive ? "none" : "2 2"}"/>`;
-
-    // Vertical stem for days with commits
-    if (isActive) {
-      verticalGuidesSvg += `
-  <line x1="${p.x}" y1="${p.y}" x2="${p.x}" y2="${paddingTop + graphHeight}" stroke="#bb9af7" stroke-width="1.5" stroke-opacity="0.35"/>`;
-    }
-
-    // Everyday X-Axis Labels (Date & Commit box)
-    const labelColor = isActive ? "#7dcfff" : "#565f89";
-    const labelWeight = isActive ? "700" : "500";
-    everydayLabelsSvg += `
-  <g transform="translate(${p.x}, ${paddingTop + graphHeight})">
-    <line x1="0" y1="0" x2="0" y2="5" stroke="${isActive ? "#7dcfff" : "#414868"}" stroke-width="1"/>
-    <text x="0" y="18" text-anchor="middle" fill="${labelColor}" font-size="9.5" font-weight="${labelWeight}" font-family="'Segoe UI', Ubuntu, sans-serif">${dayStr}</text>
-    <rect x="-9" y="24" width="18" height="14" rx="3" fill="${isActive ? "#24283b" : "#16161e"}" stroke="${isActive ? "#bb9af7" : "#1f2335"}" stroke-width="0.75"/>
-    <text x="0" y="34.5" text-anchor="middle" fill="${isActive ? "#ffffff" : "#414868"}" font-size="8.5" font-weight="${isActive ? "700" : "400"}" font-family="'Segoe UI', Ubuntu, sans-serif">${d.count}</text>
-  </g>`;
-
-    // Circle point
+  points.forEach((p) => {
     pointsSvg += `
-  <circle cx="${p.x}" cy="${p.y}" r="${isActive ? "4.5" : "2.5"}" fill="${isActive ? "#ffffff" : "#414868"}" stroke="${isActive ? "#bb9af7" : "#1a1b26"}" stroke-width="${isActive ? "2" : "1"}"/>`;
-
-    // Floating Commit Badges above active peaks
-    if (isActive) {
-      const badgeY = Math.max(paddingTop + 14, p.y - 11);
-      const countText = `${d.count}`;
-      const badgeWidth = countText.length > 2 ? 28 : 22;
-      commitBadgesSvg += `
-  <g transform="translate(${p.x}, ${badgeY})">
-    <rect x="${-badgeWidth / 2}" y="-13" width="${badgeWidth}" height="15" rx="3.5" fill="#1f2335" stroke="#bb9af7" stroke-width="1.2"/>
-    <text x="0" y="-2.5" text-anchor="middle" fill="#7dcfff" font-size="9.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">${countText}</text>
-  </g>`;
-    }
-  });
-
-  // Month headers
-  let monthHeadersSvg = "";
-  monthSpans.forEach((m) => {
-    const startX = points[m.startIndex].x;
-    const endX = points[m.endIndex].x;
-    const midX = (startX + endX) / 2;
-    monthHeadersSvg += `
-  <g transform="translate(${midX}, ${paddingTop + graphHeight + 56})">
-    <rect x="-35" y="-10" width="70" height="17" rx="8.5" fill="#24283b" stroke="#414868" stroke-width="1"/>
-    <text x="0" y="2.5" text-anchor="middle" fill="#bb9af7" font-size="10.5" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">${m.monthName} ${m.year}</text>
-  </g>`;
+  <circle cx="${p.x}" cy="${p.y}" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>`;
   });
 
   const totalMonthContribs = counts.reduce((a, b) => a + b, 0);
-  const activeDaysCount = counts.filter((c) => c > 0).length;
-  const maxDayCommits = Math.max(...counts);
 
   return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
   <defs>
     <linearGradient id="tokyoNightArea" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#bb9af7" stop-opacity="0.45"/>
-      <stop offset="60%" stop-color="#7aa2f7" stop-opacity="0.15"/>
+      <stop offset="0%" stop-color="#bb9af7" stop-opacity="0.4"/>
       <stop offset="100%" stop-color="#bb9af7" stop-opacity="0.0"/>
     </linearGradient>
     <linearGradient id="tokyoNightLine" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -185,37 +116,23 @@ function generateSvg(days, username) {
   </defs>
 
   <!-- Background card -->
-  <rect width="100%" height="100%" fill="#1a1b26" rx="10"/>
+  <rect width="100%" height="100%" fill="#1a1b26" rx="8"/>
 
-  <!-- Header Section -->
-  <text x="${paddingLeft}" y="36" fill="#70a5fd" font-size="18" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">${username}'s Contribution Activity</text>
-  <text x="${width - paddingRight}" y="36" text-anchor="end" fill="#a9b1d6" font-size="12.5" font-family="'Segoe UI', Ubuntu, sans-serif">Last 31 Days: <tspan fill="#bb9af7" font-weight="700">${totalMonthContribs} Commits</tspan> &bull; Active: <tspan fill="#7dcfff" font-weight="600">${activeDaysCount}/31 Days</tspan> &bull; Peak: <tspan fill="#7dcfff" font-weight="600">${maxDayCommits}/Day</tspan></text>
+  <!-- Header -->
+  <text x="${paddingLeft}" y="38" fill="#70a5fd" font-size="18" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">${username}'s Contribution Activity</text>
+  <text x="${width - paddingRight}" y="38" text-anchor="end" fill="#a9b1d6" font-size="13" font-family="'Segoe UI', Ubuntu, sans-serif">Last 31 Days: <tspan fill="#bb9af7" font-weight="700">${totalMonthContribs} Contributions</tspan></text>
 
-  <!-- Vertical & Horizontal Grid -->
-  ${verticalGuidesSvg}
+  <!-- Grid & Axis -->
   ${yGridSvg}
   <line x1="${paddingLeft}" y1="${paddingTop + graphHeight}" x2="${width - paddingRight}" y2="${paddingTop + graphHeight}" stroke="#414868" stroke-width="1.5"/>
 
   <!-- Area & Line Graph -->
   <path d="${areaD}" fill="url(#tokyoNightArea)"/>
-  <path d="${pathD}" fill="none" stroke="url(#tokyoNightLine)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="${pathD}" fill="none" stroke="url(#tokyoNightLine)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Floating Commit Badges -->
-  ${commitBadgesSvg}
-
-  <!-- Interactive Points -->
+  <!-- Points & Labels -->
   ${pointsSvg}
-
-  <!-- Everyday Day & Commit Labels Row -->
-  ${everydayLabelsSvg}
-
-  <!-- Month Indicators -->
-  ${monthHeadersSvg}
-
-  <!-- Legend -->
-  <g transform="translate(${paddingLeft}, ${paddingTop + graphHeight + 56})">
-    <text x="0" y="2" fill="#565f89" font-size="9.5" font-family="'Segoe UI', Ubuntu, sans-serif">Top: Date (DD) &bull; Box: Commits</text>
-  </g>
+  ${xLabelsSvg}
 </svg>`;
 }
 
