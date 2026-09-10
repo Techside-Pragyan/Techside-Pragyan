@@ -16,7 +16,7 @@
 
   <!-- Header -->
   <text x="55" y="38" fill="#70a5fd" font-size="18" font-weight="700" font-family="'Segoe UI', Ubuntu, sans-serif">Techside-Pragyan's Contribution Activity</text>
-  <text x="815" y="38" text-anchor="end" fill="#a9b1d6" font-size="13" font-family="'Segoe UI', Ubuntu, sans-serif">Last 31 Days: <tspan fill="#bb9af7" font-weight="700">356 Contributions</tspan></text>
+  <text x="815" y="38" text-anchor="end" fill="#a9b1d6" font-size="13" font-family="'Segoe UI', Ubuntu, sans-serif">Last 31 Days: <tspan fill="#bb9af7" font-weight="700">314 Contributions</tspan></text>
 
   <!-- Grid & Axis -->
   
@@ -33,55 +33,55 @@
   <line x1="55" y1="325" x2="815" y2="325" stroke="#414868" stroke-width="1.5"/>
 
   <!-- Area & Line Graph -->
-  <path d="M 55 229.38 C 67.66 229.38, 67.66 325, 80.33 325 C 93 325, 93 325, 105.67 325 C 118.34 325, 118.34 322.72, 131 322.72 C 143.67 322.72, 143.67 284.02, 156.33 284.02 C 169 284.02, 169 268.08, 181.67 268.08 C 194.33 268.08, 194.33 74.55, 207 74.55 C 219.67 74.55, 219.67 313.62, 232.33 313.62 C 245 313.62, 245 325, 257.67 325 C 270.34 325, 270.34 320.45, 283 320.45 C 295.66 320.45, 295.66 320.45, 308.33 320.45 C 321 320.45, 321 325, 333.67 325 C 346.34 325, 346.34 309.06, 359 309.06 C 371.66 309.06, 371.66 315.89, 384.33 315.89 C 397 315.89, 397 279.46, 409.67 279.46 C 422.34 279.46, 422.34 186.12, 435 186.12 C 447.66 186.12, 447.66 325, 460.33 325 C 473 325, 473 318.17, 485.67 318.17 C 498.34 318.17, 498.34 206.61, 511 206.61 C 523.66 206.61, 523.66 322.72, 536.33 322.72 C 549 322.72, 549 325, 561.67 325 C 574.34 325, 574.34 325, 587 325 C 599.66 325, 599.66 325, 612.33 325 C 625 325, 625 325, 637.67 325 C 650.34 325, 650.34 325, 663 325 C 675.66 325, 675.66 325, 688.33 325 C 701 325, 701 325, 713.67 325 C 726.34 325, 726.34 322.72, 739 322.72 C 751.66 322.72, 751.66 320.45, 764.33 320.45 C 777 320.45, 777 325, 789.67 325 C 802.34 325, 802.34 325, 815 325 L 815 325 L 55 325 Z" fill="url(#tokyoNightArea)"/>
-  <path d="M 55 229.38 C 67.66 229.38, 67.66 325, 80.33 325 C 93 325, 93 325, 105.67 325 C 118.34 325, 118.34 322.72, 131 322.72 C 143.67 322.72, 143.67 284.02, 156.33 284.02 C 169 284.02, 169 268.08, 181.67 268.08 C 194.33 268.08, 194.33 74.55, 207 74.55 C 219.67 74.55, 219.67 313.62, 232.33 313.62 C 245 313.62, 245 325, 257.67 325 C 270.34 325, 270.34 320.45, 283 320.45 C 295.66 320.45, 295.66 320.45, 308.33 320.45 C 321 320.45, 321 325, 333.67 325 C 346.34 325, 346.34 309.06, 359 309.06 C 371.66 309.06, 371.66 315.89, 384.33 315.89 C 397 315.89, 397 279.46, 409.67 279.46 C 422.34 279.46, 422.34 186.12, 435 186.12 C 447.66 186.12, 447.66 325, 460.33 325 C 473 325, 473 318.17, 485.67 318.17 C 498.34 318.17, 498.34 206.61, 511 206.61 C 523.66 206.61, 523.66 322.72, 536.33 322.72 C 549 322.72, 549 325, 561.67 325 C 574.34 325, 574.34 325, 587 325 C 599.66 325, 599.66 325, 612.33 325 C 625 325, 625 325, 637.67 325 C 650.34 325, 650.34 325, 663 325 C 675.66 325, 675.66 325, 688.33 325 C 701 325, 701 325, 713.67 325 C 726.34 325, 726.34 322.72, 739 322.72 C 751.66 322.72, 751.66 320.45, 764.33 320.45 C 777 320.45, 777 325, 789.67 325 C 802.34 325, 802.34 325, 815 325" fill="none" stroke="url(#tokyoNightLine)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 55 325 C 67.66 325, 67.66 325, 80.33 325 C 93 325, 93 322.72, 105.67 322.72 C 118.34 322.72, 118.34 284.02, 131 284.02 C 143.67 284.02, 143.67 268.08, 156.33 268.08 C 169 268.08, 169 74.55, 181.67 74.55 C 194.33 74.55, 194.33 313.62, 207 313.62 C 219.67 313.62, 219.67 325, 232.33 325 C 245 325, 245 320.45, 257.67 320.45 C 270.34 320.45, 270.34 320.45, 283 320.45 C 295.66 320.45, 295.66 325, 308.33 325 C 321 325, 321 309.06, 333.67 309.06 C 346.34 309.06, 346.34 315.89, 359 315.89 C 371.66 315.89, 371.66 279.46, 384.33 279.46 C 397 279.46, 397 186.12, 409.67 186.12 C 422.34 186.12, 422.34 325, 435 325 C 447.66 325, 447.66 318.17, 460.33 318.17 C 473 318.17, 473 206.61, 485.67 206.61 C 498.34 206.61, 498.34 322.72, 511 322.72 C 523.66 322.72, 523.66 325, 536.33 325 C 549 325, 549 325, 561.67 325 C 574.34 325, 574.34 325, 587 325 C 599.66 325, 599.66 325, 612.33 325 C 625 325, 625 325, 637.67 325 C 650.34 325, 650.34 325, 663 325 C 675.66 325, 675.66 325, 688.33 325 C 701 325, 701 322.72, 713.67 322.72 C 726.34 322.72, 726.34 320.45, 739 320.45 C 751.66 320.45, 751.66 325, 764.33 325 C 777 325, 777 325, 789.67 325 C 802.34 325, 802.34 325, 815 325 L 815 325 L 55 325 Z" fill="url(#tokyoNightArea)"/>
+  <path d="M 55 325 C 67.66 325, 67.66 325, 80.33 325 C 93 325, 93 322.72, 105.67 322.72 C 118.34 322.72, 118.34 284.02, 131 284.02 C 143.67 284.02, 143.67 268.08, 156.33 268.08 C 169 268.08, 169 74.55, 181.67 74.55 C 194.33 74.55, 194.33 313.62, 207 313.62 C 219.67 313.62, 219.67 325, 232.33 325 C 245 325, 245 320.45, 257.67 320.45 C 270.34 320.45, 270.34 320.45, 283 320.45 C 295.66 320.45, 295.66 325, 308.33 325 C 321 325, 321 309.06, 333.67 309.06 C 346.34 309.06, 346.34 315.89, 359 315.89 C 371.66 315.89, 371.66 279.46, 384.33 279.46 C 397 279.46, 397 186.12, 409.67 186.12 C 422.34 186.12, 422.34 325, 435 325 C 447.66 325, 447.66 318.17, 460.33 318.17 C 473 318.17, 473 206.61, 485.67 206.61 C 498.34 206.61, 498.34 322.72, 511 322.72 C 523.66 322.72, 523.66 325, 536.33 325 C 549 325, 549 325, 561.67 325 C 574.34 325, 574.34 325, 587 325 C 599.66 325, 599.66 325, 612.33 325 C 625 325, 625 325, 637.67 325 C 650.34 325, 650.34 325, 663 325 C 675.66 325, 675.66 325, 688.33 325 C 701 325, 701 322.72, 713.67 322.72 C 726.34 322.72, 726.34 320.45, 739 320.45 C 751.66 320.45, 751.66 325, 764.33 325 C 777 325, 777 325, 789.67 325 C 802.34 325, 802.34 325, 815 325" fill="none" stroke="url(#tokyoNightLine)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Points & Labels -->
   
-  <circle cx="55" cy="229.38" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="55" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="80.33" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="105.67" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="131" cy="322.72" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="156.33" cy="284.02" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="181.67" cy="268.08" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="207" cy="74.55" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="232.33" cy="313.62" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="257.67" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="105.67" cy="322.72" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="131" cy="284.02" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="156.33" cy="268.08" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="181.67" cy="74.55" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="207" cy="313.62" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="232.33" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="257.67" cy="320.45" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="283" cy="320.45" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="308.33" cy="320.45" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="333.67" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="359" cy="309.06" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="384.33" cy="315.89" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="409.67" cy="279.46" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="435" cy="186.12" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="460.33" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="485.67" cy="318.17" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="511" cy="206.61" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="536.33" cy="322.72" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="308.33" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="333.67" cy="309.06" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="359" cy="315.89" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="384.33" cy="279.46" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="409.67" cy="186.12" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="435" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="460.33" cy="318.17" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="485.67" cy="206.61" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="511" cy="322.72" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="536.33" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="561.67" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="587" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="612.33" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="637.67" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="663" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="688.33" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="713.67" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="739" cy="322.72" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
-  <circle cx="764.33" cy="320.45" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="713.67" cy="322.72" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="739" cy="320.45" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
+  <circle cx="764.33" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="789.67" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   <circle cx="815" cy="325" r="3.5" fill="#ffffff" stroke="#bb9af7" stroke-width="2"/>
   
   <line x1="55" y1="325" x2="55" y2="331" stroke="#7dcfff" stroke-width="1"/>
-  <text x="55" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 10</text>
+  <text x="55" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 11</text>
   <line x1="181.67" y1="325" x2="181.67" y2="331" stroke="#7dcfff" stroke-width="1"/>
-  <text x="181.67" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 15</text>
+  <text x="181.67" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 16</text>
   <line x1="308.33" y1="325" x2="308.33" y2="331" stroke="#7dcfff" stroke-width="1"/>
-  <text x="308.33" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 20</text>
+  <text x="308.33" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 21</text>
   <line x1="435" y1="325" x2="435" y2="331" stroke="#7dcfff" stroke-width="1"/>
-  <text x="435" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 25</text>
+  <text x="435" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 26</text>
   <line x1="561.67" y1="325" x2="561.67" y2="331" stroke="#7dcfff" stroke-width="1"/>
-  <text x="561.67" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 30</text>
+  <text x="561.67" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Aug 31</text>
   <line x1="688.33" y1="325" x2="688.33" y2="331" stroke="#7dcfff" stroke-width="1"/>
-  <text x="688.33" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Sep 4</text>
+  <text x="688.33" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Sep 5</text>
   <line x1="815" y1="325" x2="815" y2="331" stroke="#7dcfff" stroke-width="1"/>
-  <text x="815" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Sep 9</text>
+  <text x="815" y="347" text-anchor="middle" fill="#7dcfff" font-size="11" font-weight="500" font-family="'Segoe UI', Ubuntu, sans-serif">Sep 10</text>
 </svg>
