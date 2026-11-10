@@ -22,6 +22,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: Wait for sibling push workflows
+        if: github.event_name == 'push'
+        run: |
+          sleep 45
+          git pull --rebase --depth=20 origin main
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
