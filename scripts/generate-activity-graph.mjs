@@ -9,24 +9,87 @@ const __dirname = path.dirname(__filename);
 const USERNAME = process.env.GH_USERNAME || process.env.GITHUB_REPOSITORY_OWNER || "Techside-Pragyan";
 const OUTPUT_PATH = process.env.OUTPUT_PATH || path.join(__dirname, "../assets/activity-graph.svg");
 
-async function fetchContributions(username) {
+function fetchText(url) {
   return new Promise((resolve, reject) => {
-    https.get(
-      `https://github-contributions-api.jogruber.de/v4/${username}?y=last`,
+    const req = https.get(
+      url,
       { headers: { "User-Agent": "GitHub-Profile-Activity-Graph" } },
       (res) => {
+        if (res.statusCode < 200 || res.statusCode >= 300) {
+          res.resume();
+          reject(new Error(`HTTP ${res.statusCode} fetching ${url}`));
+          return;
+        }
         let data = "";
         res.on("data", (chunk) => (data += chunk));
-        res.on("end", () => {
-          try {
-            resolve(JSON.parse(data));
-          } catch (e) {
-            reject(e);
-          }
-        });
+        res.on("end", () => resolve(data));
       }
-    ).on("error", reject);
+    );
+    req.setTimeout(15000, () => {
+      req.destroy(new Error(`Request timeout fetching ${url}`));
+    });
+    req.on("error", reject);
   });
+}
+
+function parseGitHubContributionsHtml(html) {
+  const idToDate = new Map();
+  for (const match of html.matchAll(/<td\b([^>]*)>/g)) {
+    const attrs = match[1];
+    const dateMatch = attrs.match(/\bdata-date="(\d{4}-\d{2}-\d{2})"/);
+    const idMatch = attrs.match(/\bid="([^"]+)"/);
+    if (dateMatch && idMatch) {
+      idToDate.set(idMatch[1], dateMatch[1]);
+    }
+  }
+
+  const contributions = [];
+  for (const match of html.matchAll(/<tool-tip\b([^>]*)>([\s\S]*?)<\/tool-tip>/g)) {
+    const forMatch = match[1].match(/\bfor="([^"]+)"/);
+    if (!forMatch) continue;
+    const date = idToDate.get(forMatch[1]);
+    if (!date) continue;
+
+    const text = match[2].trim();
+    const countMatch = text.match(/^([\d,]+)\s+contribution/);
+    const count = countMatch ? Number(countMatch[1].replace(/,/g, "")) : 0;
+    contributions.push({ date, count });
+  }
+
+  contributions.sort((a, b) => a.date.localeCompare(b.date));
+  return contributions;
+}
+
+async function fetchFromGitHub(username) {
+  const html = await fetchText(
+    `https://github.com/users/${encodeURIComponent(username)}/contributions`
+  );
+  const contributions = parseGitHubContributionsHtml(html);
+  if (contributions.length === 0) {
+    throw new Error("Could not parse contribution cells from GitHub HTML.");
+  }
+  return contributions;
+}
+
+async function fetchFromContributionsApi(username) {
+  const body = await fetchText(
+    `https://github-contributions-api.jogruber.de/v4/${encodeURIComponent(username)}?y=last`
+  );
+  const data = JSON.parse(body);
+  const contributions = Array.isArray(data.contributions) ? data.contributions : [];
+  if (contributions.length === 0) {
+    throw new Error("No contribution data returned from API.");
+  }
+  return [...contributions].sort((a, b) => a.date.localeCompare(b.date));
+}
+
+async function fetchContributions(username) {
+  try {
+    return await fetchFromGitHub(username);
+  } catch (err) {
+    console.warn(`Direct GitHub fetch failed (${err.message}); falling back to API...`);
+    return fetchFromContributionsApi(username);
+  }
 }
 
 function generateSvg(days, username) {
@@ -44,7 +107,7 @@ function generateSvg(days, username) {
   const maxVal = Math.max(...counts, 4);
   const yMax = Math.ceil(maxVal / 4) * 4;
 
-  const stepX = graphWidth / (days.length - 1);
+  const stepX = graphWidth / Math.max(days.length - 1, 1);
 
   const points = days.map((d, i) => {
     const x = paddingLeft + i * stepX;
@@ -85,7 +148,7 @@ function generateSvg(days, username) {
   days.forEach((d, i) => {
     if (i % 5 === 0 || i === days.length - 1) {
       const p = points[i];
-      const dt = new Date(d.date);
+      const dt = new Date(`${d.date}T00:00:00Z`);
       const label = `${monthNames[dt.getUTCMonth()]} ${dt.getUTCDate()}`;
       xLabelsSvg += `
   <line x1="${p.x}" y1="${paddingTop + graphHeight}" x2="${p.x}" y2="${paddingTop + graphHeight + 6}" stroke="#7dcfff" stroke-width="1"/>
@@ -139,8 +202,7 @@ function generateSvg(days, username) {
 async function main() {
   try {
     console.log(`Fetching contributions for ${USERNAME}...`);
-    const data = await fetchContributions(USERNAME);
-    const contributions = data.contributions || [];
+    const contributions = await fetchContributions(USERNAME);
     if (contributions.length === 0) {
       throw new Error("No contribution data found.");
     }

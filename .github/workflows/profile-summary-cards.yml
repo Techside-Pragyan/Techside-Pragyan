@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - main
-  schedule: # execute every 24 hours
-    - cron: "0 0 * * *"
+  schedule: # execute every 4 hours
+    - cron: "35 */4 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -31,5 +35,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A .
-          git commit -m "chore: update profile summary cards" || exit 0
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update profile summary cards"
+            for i in 1 2 3; do
+              if git pull --rebase --depth=20 origin main && git push; then
+                exit 0
+              fi
+              sleep 2
+            done
+            exit 1
+          fi

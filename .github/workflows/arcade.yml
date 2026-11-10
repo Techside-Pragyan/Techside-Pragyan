@@ -2,11 +2,15 @@ name: Generate Arcade Contribution Graphs
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '25 */2 * * *'
   workflow_dispatch:
   push:
     branches:
       - main
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
   generate:
